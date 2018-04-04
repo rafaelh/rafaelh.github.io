@@ -21,7 +21,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rafael_hart
 github_username:  rafaelh
+
+# Pagination
 paginate: 8
+paginate_path: "/page/:num"
 
 # Author Settings
 author: Rafael Hart
