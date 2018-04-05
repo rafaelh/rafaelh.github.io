@@ -1167,15 +1167,15 @@ a.older-posts, a.newer-posts {
 }
 
 a.older-posts:hover {
-  -webkit-transform: translateX(5px);
-      -ms-transform: translateX(5px);
-          transform: translateX(5px);
+  -webkit-transform: translateX(2px);
+      -ms-transform: translateX(2px);
+          transform: translateX(2px);
 }
 
 a.newer-posts:hover {
-  -webkit-transform: translateX(-5px);
-      -ms-transform: translateX(-5px);
-          transform: translateX(-5px);
+  -webkit-transform: translateX(-2px);
+      -ms-transform: translateX(-2px);
+          transform: translateX(-2px);
 }
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
