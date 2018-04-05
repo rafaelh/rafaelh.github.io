@@ -1,36 +1,21 @@
 ---
-id: 1589
-title: Installing Kali Linux on a Dell XPS 9550 (updated)
-date: 2017-12-27T19:33:21+00:00
-author: Rafael
+title: Installing Kali Linux on a Dell XPS 9550
+date: 2017-12-27
 layout: post
-guid: https://www.rafaelhart.com/?p=1589
 permalink: /2017/12/installing-kali-linux-on-a-dell-xps-9550/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Custom_js:
-  - ""
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Custom_Values:
-  - ""
-nkweb_Use_Custom:
-  - 'false'
-nkweb_Custom_Code:
-  - ""
-categories:
-  - All
+img: logos/kalilogo.png
+tags: [Security, Linux]
+published: true
 ---
 I've used Kali Linux as a daily driver on my Dell XPS 15 for most of the last year, and it works well for that purpose. There are a couple of things you need to do when setting it up to get it to run smoothly though.
-<h1>Before you start</h1>
+
+# Before you start
 You need to change the following two settings in the BIOS. Now is a good time to set a BIOS password if you haven't already.
 <ul>
  	<li>BIOS &gt; Secure Boot &gt; Disabled</li>
  	<li>BIOS &gt; System Configuration &gt; SATA Operation &gt; Switch RAID to AHCI</li>
 </ul>
-You can upgrade the BIOS using the boot menu and a FREEDOS-formatted usb stick with <a href="http://www.dell.com/support/home/au/en/aubsd1/product-support/product/xps-15-9550-laptop/drivers">the latest firmware .EXE</a>. Firmware versions 1.2.10 through 1.2.16 of the firmware have been associated with a series of bugs, but with December's news about <a href="http://www.dell.com/support/contents/au/en/aubsd1/article/product-support/self-support-knowledgebase/software-and-downloads/support-for-meltdown-and-spectre">Meltdown and Spectre</a> you will want to update to 1.6.1 or greater so that you have the mitigations for those exploits.
+You can upgrade the BIOS using the boot menu and a FREEDOS-formatted usb stick with <a href="http://www.dell.com/support/home/au/en/aubsd1/product-support/product/xps-15-9550-laptop/drivers">the latest firmware</a>.EXE. Firmware versions 1.2.10 through 1.2.16 of the firmware have been associated with a series of bugs, but with December's news about <a href="http://www.dell.com/support/contents/au/en/aubsd1/article/product-support/self-support-knowledgebase/software-and-downloads/support-for-meltdown-and-spectre">Meltdown and Spectre</a> you will want to update to 1.6.1 or greater so that you have the mitigations for those exploits.
 <h1>Installation</h1>
 Install Kali Linux with a USB. I used <a href="https://rufus.akeo.ie/">rufus</a> on Windows to DD a copy of the amd64 ISO directly onto the USB stick. <a href="https://etcher.io/">Etcher</a> is another fine choice. I chose to use the whole disk - I'll virtualize Windows rather than dual boot it.
 

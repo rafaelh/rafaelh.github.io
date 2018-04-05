@@ -1,32 +1,18 @@
 ---
-id: 1563
 title: Encrypt your home directory in Kali Linux
-date: 2017-09-22T21:25:32+00:00
-author: Rafael
+date: 2017-09-22
 layout: post
-guid: https://www.rafaelhart.com/?p=1563
 permalink: /2017/09/encrypt-your-home-directory-in-kali-linux/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Custom_js:
-  - ""
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Custom_Values:
-  - ""
-nkweb_Use_Custom:
-  - 'false'
-nkweb_Custom_Code:
-  - ""
-categories:
-  - All
+img: logos/kalilogo.png
+tags: [Security, Linux]
+published: true
 ---
 Full disk encryption requires you to enter a password on boot, and isn't the smoothest experience. It is the best approach from a security point of view, but I'm a believer in practical compromises. With linux, for me that means transparent home folder encryption.
 
 First of all, make a copy of your home directory, so that this doesn't become a fancy way of wiping your computer. Make sure you are <span style="text-decoration: underline;">not logged in as the user whose directory is being encrypted</span>, otherwise you will get a failure saying that ecryptfs cannot proceed.
-<pre class="lang:sh decode:true"># As root, install the packages needed
+
+<pre class="lang:sh decode:true">
+# As root, install the packages needed
 apt install ecryptfs-utils
 
 # Add the appropriate kernel module
@@ -41,11 +27,16 @@ ecryptfs-migrate-home -u &lt;username&gt;
 # And then log in as that user, BEFORE REBOOTING
 # If you were using dropbox, you'll need to re-login
 </pre>
+
 Once this is done, you should generate a key for recovery, by running <span class="lang:sh decode:true crayon-inline">ecryptfs-unwrap-passphrase</span> as the encrypted user.
 
 For complete protection, if you can live without hibernate/resume capabilities, you can encrypt your swap space (you'll still keep suspend/resume) by running <span class="lang:sh decode:true crayon-inline">ecryptfs-setup-swap</span>.
 
-<strong>Note: While you can set this up for the root user, do not do this, and make sure you only update software from the account that has had it's files encrypted. Otherwise, when updates need to make changes to your .config directory, they won't be able to, and you may be left with an unusable account. I learnt this the hard way. For safety, I also recommend adding the following to your root's .bashrc:</strong>
-<pre class="lang:sh decode:true">alias apt="echo \"Are you about to break something? If you're SURE, use apt-unsafe\""
-alias apt-unsafe="apt"</pre>
+**Note: While you can set this up for the root user, do not do this, and make sure you only update software from the account that has had it's files encrypted. Otherwise, when updates need to make changes to your .config directory, they won't be able to, and you may be left with an unusable account. I learnt this the hard way. For safety, I also recommend adding the following to your root's .bashrc:**
+
+<pre class="lang:sh decode:true">
+alias apt="echo \"Are you about to break something? If you're SURE, use apt-unsafe\""
+alias apt-unsafe="apt"
+</pre>
+
 From this point, you should really only use apt when your encrypted user is logged in.
