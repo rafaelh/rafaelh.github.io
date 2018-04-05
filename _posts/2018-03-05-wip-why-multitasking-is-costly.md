@@ -1,32 +1,16 @@
 ---
-id: 1625
-title: 'WIP &#038; Why multitasking is costly'
-date: 2018-03-05T09:58:28+00:00
-author: Rafael
+title: 'WIP & Why multitasking is costly'
+date: 2018-03-05
 layout: post
-guid: https://www.rafaelhart.com/?p=1625
 permalink: /2018/03/wip-why-multitasking-is-costly/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Custom_js:
-  - ""
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Custom_Values:
-  - ""
-nkweb_Use_Custom:
-  - 'false'
-nkweb_Custom_Code:
-  - ""
-image: /wp-content/uploads/2018/03/Traffic-Jam-in-China.jpg
-categories:
-  - All
+img: 2018/2018-03-05-traffic-jam-in-china.jpg
+tags: [Agile, DevOps]
+published: true
 ---
 5am on the road, and the streets are empty - you get from point A to point B rapidly, as does everyone else awake at that hour. Several hours later there are many more cars on the road; everyone gets where they are going much slower. It’s not that there isn’t enough room in the lanes for the cars, it’s that every has to start and stop, reacting to the car in front of them, not just the lights. These interruptions, in essence, are the problem with high levels of concurrent work.
 
-Handling concurrent issues and the associated interruptions have been shown to negatively impact productivity - research shows that it <a href="https://msutoday.msu.edu/news/2013/brief-interruptions-spawn-errors/" target="_blank" rel="nofollow noopener">raises error rates</a>, <a href="https://www.ics.uci.edu/~gmark/chi08-mark.pdf" target="_blank" rel="nofollow noopener">stress levels</a>, and that each task has a <a href="https://www.ics.uci.edu/~gmark/chi08-mark.pdf" target="_blank" rel="nofollow noopener">context switching overhead</a> (23+ mins to get back to full productivity in one study, 40% of <a href="https://www.apa.org/research/action/multitask.aspx" target="_blank" rel="nofollow noopener">overall productivity</a> in another). We often don’t realise this because knowledge work is invisible. You can spot work piling up in a bottleneck like a traffic jam, but if work instead proceeds slowly from point A to point B, the only red flag to show you something is wrong is a poor cycle time.
+
+Handling concurrent issues and the associated interruptions have been shown to negatively impact productivity - research shows that it [raises error rates](https://msutoday.msu.edu/news/2013/brief-interruptions-spawn-errors/), [stress levels](https://www.ics.uci.edu/~gmark/chi08-mark.pdf), and that each task has a [context switching overhead](https://www.ics.uci.edu/~gmark/chi08-mark.pdf) (23+ mins to get back to full productivity in one study, 40% of [overall productivity](https://www.apa.org/research/action/multitask.aspx). We often don’t realise this because knowledge work is invisible. You can spot work piling up in a bottleneck like a traffic jam, but if work instead proceeds slowly from point A to point B, the only red flag to show you something is wrong is a poor cycle time.
 <h2>WIP Limits</h2>
 Smart traffic systems address this by creating lights that let one vehicle at a time onto major roads, controlling the ingress of traffic into the system. Kanban (and DevOps) has a similar concept; Work in Progress (WIP) limits. In the original Toyota manufacturing plants that spawned Lean &amp; Kanban, workers could pull a cord when work went past the WIP limit, whereupon everyone else in the team would stop their work and ‘swarm’ on the problem.
 <div class="slate-resizable-image-embed slate-image-embed__resize-middle"><img class="aligncenter size-medium wp-image-1626" src="https://www.rafaelhart.com/wp-content/uploads/2018/03/Ramp-Signals-300x197.jpg" alt="" width="300" height="197" /></div>
