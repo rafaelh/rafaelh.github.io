@@ -146,6 +146,7 @@ samp {
   font-size: 1em;
   /* 2 */
   white-space: pre-wrap; /* force long lines to break */
+  word-break: break-all;
 }
 
 /**
@@ -452,6 +453,7 @@ template {
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
+      background-attachment: fixed;
 }
 
 .highlight .hll {
@@ -784,8 +786,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 h1 {
@@ -816,8 +816,6 @@ pre code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 table {
@@ -878,7 +876,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
+  max-width: 1300px;
   position: relative;
 }
 
