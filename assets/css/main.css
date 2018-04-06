@@ -140,10 +140,12 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font: 400 .8125em/1.4375, 'Menlo', 'Consolas', 'DejaVu Sans Mono' monospace;
+  /*font-family: monospace, monospace;*/
   /* 1 */
   font-size: 1em;
   /* 2 */
+  white-space: pre-wrap; /* force long lines to break */
 }
 
 /**
@@ -775,10 +777,15 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   color: #515151;
-  background-color: #fbfbfb;
+  background-image: url("/assets/img/background.jpg");    
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 h1 {
@@ -801,6 +808,7 @@ blockquote {
 
 pre {
   padding: 1rem 2rem;
+  overflow: scroll;
   overflow-x: auto;
 }
 
@@ -808,6 +816,8 @@ pre code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 table {
@@ -889,6 +899,7 @@ table tfoot td {
 .clearfix::before, .clearfix::after {
   content: "";
   display: table;
+
 }
 
 .clearfix::after {
