@@ -9,9 +9,10 @@ published: true
 ---
 Most of the guides I've found on how to do this are fairly involved, requiring you to build from source and install without a .dpkg, which is messy if you ever want to change your installation. Installing Node.js is the same as for Debian:
 
-<pre class="lang:sh decode:true ">
+
+``` sh
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt install -y nodejs
-</pre>
+```
 
-The package <span class="lang:sh decode:true  crayon-inline ">build-essential</span> is required for compiling and installing native packages, but it's already included in Kali's base image.
+The package **build-essential** is required for compiling and installing native packages, but it's already included in Kali's base image.
