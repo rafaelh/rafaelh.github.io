@@ -10,7 +10,7 @@ published: true
 Anyone spending a decent amount of time in Kali is going to want a GUI code editor, and they'll probably want something a little more advanced than gedit (which is currently unmaintained as of writing). My preference is Visual Studio code, though others swear by [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/).
 
 {: style="text-align: center"}
-![Visual Studio Code running in Kali Linux]({{site.baseurl}}/assets/img/2017/vscode-in-kali.jpg)
+![Visual Studio Code running in Kali Linux]({{site.baseurl}}/assets/img/2017/2017-08-16-vscode-in-kali.jpg)
 
 Since Kali is a Debian-based distribution, you can add it much as you would Debian or Ubuntu:
 

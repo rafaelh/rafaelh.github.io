@@ -3,7 +3,7 @@ title: Encrypt your home directory in Kali Linux
 date: 2017-09-22
 layout: post
 permalink: /2017/09/encrypt-your-home-directory-in-kali-linux/
-img: logos/kalilogo.png
+img: logos/lock.jpg
 tags: [Security, Linux]
 published: true
 ---

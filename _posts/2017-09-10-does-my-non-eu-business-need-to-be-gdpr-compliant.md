@@ -1,5 +1,5 @@
 ---
-title: Does my non-EU business need to be GDPR compliant?
+title: Does my non-EU business need GDPR compliance?
 date: 2017-09-10
 layout: post
 permalink: /2017/09/does-my-non-eu-business-need-to-be-gdpr-compliant/
