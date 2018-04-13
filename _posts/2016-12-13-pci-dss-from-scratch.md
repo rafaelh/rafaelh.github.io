@@ -4,7 +4,7 @@ date: 2016-12-13
 layout: post
 permalink: /2016/12/pci-dss-from-scratch/
 img: 2016/2016-12-13-pci-dss.jpg
-tags: [security, windows]
+tags: [security, pcidss]
 published: true
 ---
 PCI DSS is the Payment Card Industry Data Security Standard, and it is required for any merchant, payment processor, or service provider that interacts with cardholder data. I recently went through the process of implementing this standard, and I thought I would share some of my observations on the process.
