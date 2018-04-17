@@ -5,7 +5,6 @@ layout: post
 permalink: /2017/03/windows-10-privacy/
 img: 2017/2017-03-27-windows-10-privacy.jpg
 tags: [privacy]
-published: true
 ---
 Last week in the US the [FCC privacy regulations](https://www.businessinsider.com.au/republicans-kill-fcc-broadband-privacy-rules-2017-3?r=US&IR=T) were repealed, which, amongst other things, allows ISPs to track your internet usage and sell it to third parties. It's a good time to think about privacy.
 
@@ -14,11 +13,11 @@ Windows 10 doesn't have the best record on privacy. Most app teams need to get d
 
 # Improve your Windows Privacy
 There are multiple tools to turn off Windows 10 telemetry, depending on what services you are prepared to go without. There is a slightly melodramatic naming convention for these tools that ever so subtly hints at what their authors might say on this topic if you got a few beers into them.
-<ul>
- 	<li><a href="https://github.com/Nummer/Destroy-Windows-10-Spying/releases/tag/1.6.722">Destroy-Windows-10-Spying</a> adds host entries to block telemetry servers, and shuts down a range of Windows tasks that try to report your data</li>
- 	<li><a href="https://www.oo-software.com/en/shutup10/update">O&amp;OShutup10</a> gives you a fast way to disable all the privacy affecting settings in Windows, and provides guidance with each one. Don't tick everything, especially the ones with red exclamation marks next to them</li>
- 	<li><a href="https://modzero.github.io/fix-windows-privacy/">fix-windows-privacy</a> will disable a wider range of tracking via the registry, including removing OneDrive</li>
-</ul>
+
+* [Destroy-Windows-10-Spying](https://github.com/Nummer/Destroy-Windows-10-Spying/releases/tag/1.6.722) adds host entries to block telemetry servers, and shuts down a range of Windows tasks that try to report your data
+* [O&OShutup10](https://www.oo-software.com/en/shutup10/update) gives you a fast way to disable all the privacy affecting settings in Windows, and provides guidance with each one. Don't tick everything, especially the ones with red exclamation marks next to them
+* [fix-windows-privacy](https://modzero.github.io/fix-windows-privacy/) will disable a wider range of tracking via the registry, including removing OneDrive
+
 Remember to run these after any major Windows update, as Microsoft has turned tracking back on with some of these in the past.
 
 If you have an NVidia card, they send telemetry home as well, but it seems to be [mostly harmless](http://www.howtogeek.com/280101/relax-nvidias-telemetry-didnt-just-start-spying-on-you/) so far. Instructions to turn it off are [here](https://www.youtube.com/watch?v=bp850f5_rzk).
@@ -27,9 +26,10 @@ Depending on where you are living, the sites you visit may also be logged by you
 
 A VPN is the only real defence against this, but it is of limited use if you still refer to your ISPs DNS for name resolution. You can lower the amount of data collected about you by selecting a DNS provider that does not keep logs, and uses the dnscrypt protocol to sign communications, making the responses harder to spoof. Note that dnscrypt does not provide privacy without a VPN.
 
-For a simple solution, you can change your DNS servers to <a href="https://www.opendns.com/setupguide/">OpenDNS</a> or <a href="https://developers.google.com/speed/public-dns/">Google DNS</a>. Both keep logs, which isn't ideal, but they aren't exactly known for handing them over. A better solution is <a href="https://simplednscrypt.org/">Simple DNScrypt</a>, which gives you non-logging options, and implements the dnscrypt protocol
+For a simple solution, you can change your DNS servers to [OpenDNS](https://www.opendns.com/setupguide/) or [Google DNS](https://developers.google.com/speed/public-dns/). Both keep logs, which isn't ideal, but they aren't exactly known for handing them over. A better solution is [Simple DNScrypt](https://simplednscrypt.org/), which gives you non-logging options, and implements the dnscrypt protocol.
 
 # Improve your browser privacy
+
 Your browser broadcasts a lot of information. If you are signed in on Facebook, and you visit another site that has placed an link on their page, Facebook knows about it.
 
 There is a 'Do Not Track' setting in most browsers these days, but the best approach is to install EFF's <a href="https://www.eff.org/privacybadger">Privacy Badger</a> extension, which will detect and block sites tracking you. Privacy Badger is available for Chrome and Firefox. If you use Safari, consider installing Ghostery instead. What if you're using IE? Stop using IE. There. I fixed it for you.

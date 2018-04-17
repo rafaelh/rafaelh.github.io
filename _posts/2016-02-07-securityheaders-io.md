@@ -5,7 +5,6 @@ layout: post
 permalink: /2016/02/securityheaders-io/
 img: 2016/2016-02-07-not-the-securityheaders-logo.png
 tags: [security]
-published: true
 ---
 According to Verizon, 9.4% of breaches last year occurred through vulnerabilities in web applications. A lot of these vulnerabilities were SQL injections and the like, which really shouldn't happen these days, especially when you consider that most professional companies should be using a framework for development. However, many of the other potential vulnerabilities can be reduced by tightening the scope of your server config.
 

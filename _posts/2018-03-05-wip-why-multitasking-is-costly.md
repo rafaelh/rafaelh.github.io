@@ -5,7 +5,6 @@ layout: post
 permalink: /2018/03/wip-why-multitasking-is-costly/
 img: 2018/2018-03-05-traffic-jam-in-china.jpg
 tags: [Agile, DevOps]
-published: true
 ---
 5am on the road, and the streets are empty - you get from point A to point B rapidly, as does everyone else awake at that hour. Several hours later there are many more cars on the road; everyone gets where they are going much slower. It’s not that there isn’t enough room in the lanes for the cars, it’s that every has to start and stop, reacting to the car in front of them, not just the lights. These interruptions, in essence, are the problem with high levels of concurrent work.
 

@@ -5,7 +5,6 @@ layout: post
 permalink: /2018/02/what-actually-is-devops/
 img: 2018/2018-02-23-devops.jpg
 tags: [Agile, DevOps]
-published: true
 ---
 DevOps is a pretty popular term right now. It's well established in many companies and even made it into frameworks like SAFe 4.5. But what actually is it? Most people are aware that it involves automation, but deeper understanding seems to be rare.
 

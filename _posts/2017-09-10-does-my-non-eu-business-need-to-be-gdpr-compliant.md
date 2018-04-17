@@ -5,7 +5,6 @@ layout: post
 permalink: /2017/09/does-my-non-eu-business-need-to-be-gdpr-compliant/
 img: 2017/2017-09-10-gdpr.png
 tags: [gdpr, privacy]
-published: true
 ---
 The answer is maybe. There are a lot of consultants making a bundle off GDPR at the moment, selling opinions. What is definite is that we have the wording of the legislation, prior EU laws and guidelines.
 

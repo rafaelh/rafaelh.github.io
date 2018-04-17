@@ -5,16 +5,15 @@ layout: post
 permalink: /2015/06/mysql-on-cygwin-2015/
 img: 2015/2015-07-12-cygwin.jpg
 tags: [cygwin]
-published: true
 ---
 MySQL is a well known database, which you will need if you plan on setting up a locally hosted site for web development, or similar. MariaDB, a fork of the project which came into existence after Oracle purchased MySQL, is not yet available on Cygwin as of 2015 or on [Cygwin Ports](http://cygwin.rafaelhart.com/installing-cygwin-2/cygwin-ports/), but watch this space.
 
 # MySQL on Cygwin
 You need to run the Cygwin Setup program, and install:
-<ul>
-	<li>mysql</li>
-	<li>mysqld</li>
-</ul>
+
+* mysql
+* mysqld
+
 Once they and their dependencies have been installed, you can begin configuring MySQL at the command line:
 
 ``` sh

@@ -5,7 +5,6 @@ layout: post
 permalink: /2017/09/encrypt-your-home-directory-in-kali-linux/
 img: logos/lock.jpg
 tags: [Security, Linux]
-published: true
 ---
 Full disk encryption requires you to enter a password on boot, and isn't the smoothest experience. It is the best approach from a security point of view, but I'm a believer in practical compromises. With linux, for me that means transparent home folder encryption.
 

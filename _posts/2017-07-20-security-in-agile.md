@@ -5,7 +5,6 @@ layout: post
 permalink: /2017/07/security-in-agile/
 img: 2017/2017-07-20-security-in-agile.jpg
 tags: [mysql, wsl]
-published: true
 ---
 *First posted on the [Agile Australia](https://agileaustraliablog.com/2017/07/19/security-in-agile/) blog, 19/07/2017.*
 

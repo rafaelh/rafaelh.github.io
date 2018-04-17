@@ -5,10 +5,8 @@ layout: post
 permalink: /2016/12/pci-dss-from-scratch/
 img: 2016/2016-12-13-pci-dss.jpg
 tags: [security, pcidss]
-published: true
 ---
 PCI DSS is the Payment Card Industry Data Security Standard, and it is required for any merchant, payment processor, or service provider that interacts with cardholder data. I recently went through the process of implementing this standard, and I thought I would share some of my observations on the process.
-
 
 # Do your due diligence
  Several times I heard statements to the effect of *"Surely XYZ payment provider is compliant - they're owned by a bank!"* and I found myself nodding in agreement. Then on checking the VISA and MasterCard websites, it turns out that some of the people who claim to be compliant are not. Maybe they were once, but it's a big process to keep up to date with new versions of the standard, and clearly not everyone does it. The chain of compliance in PCI isn't always as good as you would expect, so check who you are working with. Often it's just a difference between trading name and the registered PCI name, but you don't know unless you find out.
@@ -28,8 +26,7 @@ Whilst compliance isn't the same as security, PCI DSS does create a good baselin
 ---
 
 More info:
-<ul>
- 	<li><a href="http://www.pcisecuritystandards.org/" target="_blank" rel="nofollow noopener">PCI DSS</a></li>
- 	<li><a href="http://www.visa.com/splisting/" target="_blank" rel="nofollow noopener">VISA</a> (Firefox/IE only)</li>
- 	<li><a href="http://www.mastercard.us/en-us/merchants/safety-security/security-recommendations/service-providers-need-to-know.html" target="_blank" rel="nofollow noopener">MasterCard</a></li>
-</ul>
+
+* [PCI DSS](http://www.pcisecuritystandards.org/)
+* [VISA](http://www.visa.com/splisting/) (Firefox/IE only)
+* [MasterCard](http://www.mastercard.us/en-us/merchants/safety-security/security-recommendations/service-providers-need-to-know.html)

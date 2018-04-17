@@ -5,7 +5,6 @@ layout: post
 permalink: /2017/12/installing-kali-linux-on-a-dell-xps-9550/
 img: logos/kalilogo.png
 tags: [Security, Linux]
-published: true
 ---
 I've used Kali Linux as a daily driver on my Dell XPS 15 for most of the last year, and it works well for that purpose. There are a couple of things you need to do when setting it up to get it to run smoothly though.
 

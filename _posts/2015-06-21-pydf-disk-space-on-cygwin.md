@@ -5,7 +5,6 @@ layout: post
 permalink: /2015/06/pydf-disk-space-on-cygwin/
 img: 2015/2015-07-12-cygwin.jpg
 tags: [cygwin]
-published: true
 ---
 Occasionally you may want to check your diskspace, and via cygwin, you can see all the drives mounted on your computer via the 'df' command line utility. A slightly nicer approach however is pydf, a python-based replacement.
 

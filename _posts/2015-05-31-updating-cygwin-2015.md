@@ -5,7 +5,6 @@ layout: post
 permalink: /2015/05/updating-cygwin-2015/
 img: 2015/2015-07-12-cygwin.jpg
 tags: [cygwin]
-published: true
 ---
 Cygwin doesn't automatically update itself, and doesn't provide a command line utility to do so. In order to get updates, and install or remove software, you need to run the installer again. Occasionally, you will also need to get an updated copy of the installer. Fortunately, all this can be automated:
 

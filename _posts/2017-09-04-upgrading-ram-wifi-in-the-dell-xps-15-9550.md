@@ -5,7 +5,6 @@ layout: post
 permalink: /2017/09/upgrading-ram-wifi-in-the-dell-xps-15-9550/
 img: 2017/2017-09-05-open-laptop.jpg
 tags: [hardware]
-published: true
 ---
 After spending a reasonable amount of time running Linux on the Dell XPS 15 (9550), I can say that the only hardware I can't get to work reliably is the Bluetooth support. I've had partial success, but really this is something I just want to work when I need it. The solution is to change out the existing Broadcom card for a cheap Intel AC 8260 card (cost me AUD $40), after which I now have good WiFi and Bluetooth support. Provided you have the right hex tool, the Dell XPS is easy to open and upgrade:
 

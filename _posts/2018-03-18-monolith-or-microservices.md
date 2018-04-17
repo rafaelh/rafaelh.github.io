@@ -4,7 +4,6 @@ date: 2018-03-18
 layout: post
 img: 2018/2018-03-18-monolith-or-microservices.jpg
 tags: [Agile, Architecture]
-published: true
 ---
 
 If you are starting a new project, what should you build? Perhaps a more important question is, how should you build it?
