@@ -4,7 +4,7 @@ date: 2015-02-19
 layout: post
 permalink: /2015/02/dns-enumeration-on-cygwin/
 img: 2015/2015-07-12-cygwin.jpg
-tags: [cygwin]
+tags: [cygwin, security]
 ---
 As part of pentesting your site, or that of a client, you will need to find all as much detail out about a domain and it's IP ranges as possible, or at least demonstrate what can be found via automated tools. Typically this is done through dig, or a bruteforcing tool like [dnsenum](https://code.google.com/p/dnsenum/) or [fierce.pl](http://ha.ckers.org/fierce/). Dig is installed with the bind-utils cygwin package, and it straightforward to use (type 'dig any domainname.com', or look at man dig to get started).
 

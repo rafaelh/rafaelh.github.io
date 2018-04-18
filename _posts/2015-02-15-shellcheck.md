@@ -4,7 +4,7 @@ date: 2015-02-15
 layout: post
 permalink: /2015/02/shellcheck/
 img: 2015/2015-02-15-shellcheck.png
-tags: [cygwin]
+tags: [security]
 ---
 This is a quick note to share a useful tool by Vidar 'koala_man' Holen, [www.shellcheck.net](http://www.shellcheck.net). ShellCheck is a site that allows you to paste in your bash scripts and receive automated feed back on common errors and security holes.
 
