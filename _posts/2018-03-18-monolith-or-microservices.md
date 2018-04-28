@@ -1,5 +1,5 @@
 ---
-title: 'Monolith or Microservices?'
+title: Monolith or Microservices?
 date: 2018-03-18
 layout: post
 img: 2018/2018-03-18-monolith-or-microservices.jpg

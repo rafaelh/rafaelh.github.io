@@ -1,5 +1,5 @@
 ---
-title: 'WIP & Why multitasking is costly'
+title: WIP & Why multitasking is costly
 date: 2018-03-05
 layout: post
 permalink: /2018/03/wip-why-multitasking-is-costly/

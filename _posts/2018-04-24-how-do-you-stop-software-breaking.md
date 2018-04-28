@@ -1,5 +1,5 @@
 ---
-title: 'How do you stop software breaking?'
+title: How do you stop software breaking?
 date: 2018-04-24
 layout: post
 img: 2018/2018-04-24-gears.jpg

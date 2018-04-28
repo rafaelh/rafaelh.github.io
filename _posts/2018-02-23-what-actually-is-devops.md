@@ -1,5 +1,5 @@
 ---
-title: 'What *actually* is DevOps?'
+title: What *actually* is DevOps?
 date: 2018-02-23
 layout: post
 permalink: /2018/02/what-actually-is-devops/
