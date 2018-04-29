@@ -38,15 +38,15 @@ While you are there, you should install <a href="https://www.eff.org/https-every
 
 # Improve your social media privacy
 Make sure you are happy with the list of apps connected to each of your social media accounts, because each of them is likely to be recording as much information as possible.
-<ul>
- 	<li>Microsoft - <a href="https://account.microsoft.com/privacy">https://account.microsoft.com/privacy</a></li>
- 	<li>Google - <a href="https://myaccount.google.com/privacycheckup">https://myaccount.google.com/privacycheckup</a></li>
- 	<li>Apple - You're mostly out of luck, but Apple do have a history of not sharing data with anyone else. What settings you can change are detailed <a href="https://www.apple.com/privacy/manage-your-privacy/">here</a></li>
- 	<li>Facebook - <a href="https://www.facebook.com/about/basics">https://www.facebook.com/about/basics</a>, and choose 'Take the Privacy Check-up' at the bottom</li>
- 	<li>LinkedIn - <a href="https://www.linkedin.com/psettings/">https://www.linkedin.com/psettings/</a></li>
- 	<li>Twitter - <a href="https://twitter.com/settings/security">https://twitter.com/settings/security</a></li>
- 	<li>Instagram - <a href="https://help.instagram.com/196883487377501">https://help.instagram.com/196883487377501</a></li>
-</ul>
+
+* Microsoft - <a href="https://account.microsoft.com/privacy">https://account.microsoft.com/privacy</a>
+* Google - <a href="https://myaccount.google.com/privacycheckup">https://myaccount.google.com/privacycheckup</a>
+* Apple - You're mostly out of luck, but Apple do have a history of not sharing data with anyone else. What settings you can change are detailed <a href="https://www.apple.com/privacy/manage-your-privacy/">here</a>
+* Facebook - <a href="https://www.facebook.com/about/basics">https://www.facebook.com/about/basics</a>, and choose 'Take the Privacy Check-up' at the bottom
+* LinkedIn - <a href="https://www.linkedin.com/psettings/">https://www.linkedin.com/psettings/</a>
+* Twitter - <a href="https://twitter.com/settings/security">https://twitter.com/settings/security</a>
+* Instagram - <a href="https://help.instagram.com/196883487377501">https://help.instagram.com/196883487377501</a>
+
 And if you live in the US, I'd also recommend opting out of the various services who index information on you from publicly available records. This [article](https://tisiphone.net/2017/01/25/thwart-my-osint-efforts-while-binging-tv/) eloquently explains how to do that.
 
 The last point I'd make about privacy is that it's something that is important to maintain, even when you have nothing to hide. If 99% of mail was postcards, envelopes would be suspicious. There plenty of people with legitimate reasons not to want their privacy invaded, and by protecting your privacy, you protect theirs.
