@@ -3,7 +3,7 @@ title: Installing sqlmap on Cygwin
 date: 2014-11-30
 layout: post
 permalink: /2014/11/installing-sqlmap-on-cygwin/
-img: 2015/2015-02-15-project-finished.jpg
+img: 2015/2015-07-12-cygwin.jpg
 tags: [cygwin, security]
 ---
 
