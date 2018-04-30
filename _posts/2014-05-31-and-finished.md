@@ -4,7 +4,7 @@ date: 2014-05-31
 layout: post
 permalink: /2014/05/and-finished/
 img: logos/rmit.png
-tags: [mba]
+tags: [life]
 ---
 
 My MBA is finished, after two years of studying into the night, and on weekends. All the coursework is done, I now just have to wait for the administrative process to churn out something certifying me.
