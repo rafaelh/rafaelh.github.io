@@ -120,14 +120,18 @@ table tfoot td {
   clear: both;
 }
 
-/* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
+/* - - - - - - - - - - Home Page Styles - - - - - - - - - */
 @import 'parts/home-page';
 
-/* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
+/* - - - - - - - - - - Post Page Styles - - - - - - - - - */
 @import 'parts/post-page';
 
-/* - - - - - - - - - - Tag Styles - - - - - - - - - - */
+/* - - - - - - - - - - Tag Styles - - - - - - - - - - - - */
 @import 'parts/tag';
 
-/* - - - - - - - - - - Media Styles - - - - - - - - - - */
+/* - - - - - - - - - - Media Styles - - - - - - - - - - - */
 @import 'media';
+
+/* - - - - - - - - - - GitHub Comments - - - - - - - - - -*/
+@import 'parts/gh-comments';
+@import 'parts/gh-code';

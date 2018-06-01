@@ -4,6 +4,7 @@ date: 2018-04-24
 layout: post
 img: 2018/2018-04-24-gears.jpg
 tags: [Agile, Testing]
+github_comments_issueid: "1"
 ---
 The difficulty with quality is that like all knowledge work, it’s invisible. Each practice within the discipline guards against specific issues, and each can be skipped… until something breaks. Software testers devote an entire career to this topic, so it is difficult to cover it all with any kind of brevity, but here are the things I would look for.
 

@@ -15,15 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Rafe Hart
-description: >-                # this means to ignore newlines until "baseurl:"
-        This is a Jekyll blog.
-baseurl: ""                    # the subpath of your site, e.g. /blog
-url: ""                        # the base hostname & protocol for your site, e.g. http://example.com
+description: >-           # this means to ignore newlines until "baseurl:"
+           This is a Jekyll blog.
+baseurl:   ""             # the subpath of your site, e.g. /blog
+url:       ""             # the base hostname & protocol for your site, e.g. http://example.com
 analytics: UA-47729860-2
-
-# Pagination
-paginate: 8
-paginate_path: "/page/:num"
 
 # Author Settings
 author: Rafe Hart
@@ -34,6 +30,13 @@ social-facebook: rafael.hart
 social-github: rafaelh
 social-linkedin: rafehart
 social-email: rafael.hart9@gmail.com
+
+# Pagination
+paginate: 8
+paginate_path: "/page/:num"
+
+# Github Comments
+github_comments_repository: rafaelh/rafaelh.github.io
 
 # Build settings
 markdown: kramdown
