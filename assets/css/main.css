@@ -140,13 +140,10 @@ strong {
 code,
 kbd,
 samp {
-  font: 400 .8125em/1.4375, 'Menlo', 'Consolas', 'DejaVu Sans Mono' monospace;
-  /*font-family: monospace, monospace;*/
+  font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
-  white-space: pre-wrap; /* force long lines to break */
-  word-break: break-all;
 }
 
 /**
@@ -453,7 +450,6 @@ template {
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
-      background-attachment: fixed;
 }
 
 .highlight .hll {
@@ -779,10 +775,7 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   color: #515151;
-  background-image: url("/assets/img/background.jpg");    
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
+  background-color: #fbfbfb;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -808,7 +801,6 @@ blockquote {
 
 pre {
   padding: 1rem 2rem;
-  overflow: scroll;
   overflow-x: auto;
 }
 
@@ -876,7 +868,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1300px;
+  max-width: 1250px;
   position: relative;
 }
 
@@ -897,7 +889,6 @@ table tfoot td {
 .clearfix::before, .clearfix::after {
   content: "";
   display: table;
-
 }
 
 .clearfix::after {
@@ -1176,15 +1167,15 @@ a.older-posts, a.newer-posts {
 }
 
 a.older-posts:hover {
-  -webkit-transform: translateX(2px);
-      -ms-transform: translateX(2px);
-          transform: translateX(2px);
+  -webkit-transform: translateX(5px);
+      -ms-transform: translateX(5px);
+          transform: translateX(5px);
 }
 
 a.newer-posts:hover {
-  -webkit-transform: translateX(-2px);
-      -ms-transform: translateX(-2px);
-          transform: translateX(-2px);
+  -webkit-transform: translateX(-5px);
+      -ms-transform: translateX(-5px);
+          transform: translateX(-5px);
 }
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
