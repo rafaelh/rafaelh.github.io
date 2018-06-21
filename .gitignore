@@ -6,6 +6,7 @@ Gemfile.lock
 package-lock.json
 node_modules/
 npm-debug.log
+assets/css/main.css.map
 
 ### macOS ###
 *.DS_Store

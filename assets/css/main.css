@@ -776,6 +776,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
+  background-image: url("/assets/img/background.jpg");
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -30,7 +30,7 @@ gulp.task('browser-sync', ['sass', 'img', 'jekyll-build'], function() {
     });
 });
 
-// Compile files
+// Compile files - sass --watch scss/ to compile
 gulp.task('sass', function () {
     return gulp.src('assets/css/scss/main.scss')
         .pipe(sass({
