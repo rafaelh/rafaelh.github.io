@@ -2,7 +2,7 @@
 title: New Beginnings, Endings.
 date: 2011-01-28
 layout: post
-img: /2011/2011-04-19-zac.jpg
+img: /2011/2011-01-28-new-beginnings.jpg
 tags: [life]
 ---
 So, if everything goes to plan, three months from now, Amber and I should have a baby boy. It seems a little bit unreal; everyone has encouraging stuff to say about how it will change our lives for the better, etc. Well, one friend talked about fountains of poo, but hopefully that will be at a minimum.
