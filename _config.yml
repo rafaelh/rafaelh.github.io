@@ -26,10 +26,10 @@ author: Rafe Hart
 author-img: profile-photo.jpg
 about-author: Dad, techie, traveller. I quite like anything to do with security, automation, and building software.
 social-twitter: rafael_hart
-social-facebook: rafael.hart
 social-github: rafaelh
 social-linkedin: rafehart
 social-email: rafael.hart9@gmail.com
+social-facebook:
 
 # Pagination
 paginate: 8
