@@ -1,44 +1,44 @@
 ---
-title: Your Anonymous Data isn't Anonymous
-date: 2018-06-24
+title: Installing Burp Suite on ChromeOS
+date: 2018-12-21
 layout: post
-img: 2018/2018-06-24-erasedata.jpg
-tags: [Privacy]
-github_comments_issueid: "2"
+img: logos/burpsuite.jpg
+tags: [Security, ChromeOS]
+github_comments_issueid: "3"
 ---
 
-It’s been said that data is the new oil, and for good reason; insights from analysing data can save money and create competitive advantage, especially as we combine data sets and start data mining. But individuals don’t necessarily want to be data mined, and laws like GDPR, GLBA, PIPEDA, FERPA, etc are limiting what we can do without that individual’s consent. GDPR in particular has no grandfathering of data collected previously, meaning that if you want to hold onto the data you have, you need to anonymise it.
+I recently purchased a Pixelbook while over in the US, and I've slowly been exploring it's capabilities. I really like it as a travelling device, and I've naturally been curious about what you can set up. VSCode, Signal and other apps all seem to work in the Linux sandbox environment, and it turns out that Burp Suite does as well. Here is how to install it:
 
-So we anonymise all the data we are going to keep for analysis, right? Well, yes, but only if you do it correctly.
+```
+# Firstly, I'm making the assumption that you've got the linux command line environment installed.
+# If not, do that first. Next, install elinks, or another text based browser.
+sudo apt install elinks
 
-First of all, it’s worth running through some concepts:
+# Go to Burp Suite's site and download a copy (it's about 95 MB)
+elinks https://portswigger.net/burp/communitydownload
 
-* **Anonymous data is safer.** Everyone, with some rare exceptions, is covered by Privacy laws of some description, which gives them rights. If data is anonymous, it has been separated from that individual, so rules like consent, rectification and erasure no long apply.
+# Save the 'Download for Linux (64-bit)', then make the file executable
+chmod u+x burpsuite_community_linux_v1_X_XX.sh
 
-* **Until it isn’t.** If you can deanonymize someone, laws such as GDPR apply in their full glory, at which point most uses of what was previously ‘anonymous’ data are now going to be considered illegal. 
+# Run the installer
+./burpsuite_community_linux_v1_X_XX.sh
 
-* **And it may not be hard.** Deanonymizing doesn’t mean working out someone’s name, it means being able to extrapolate any additional private data about the individual; if that happens, the data isn’t anonymous, and the law applies. This can be done by adding other data sets, such as those from the LinkedIn, MySpace, or myriad of other breaches using Excel and a bit of determination.
+# Go into the program directory and run the Burp Suite
+cd BurpSuiteCommunity
+./BurpSuiteCommunity
+```
 
-Anonymising data only provides as much protection as the strength of the anonymisation you use. Fortunately, there are a range of approaches you can use - some are good, and some are less so:
+Once you've done this, you'll need to install a proxy switching extension for chrome. The one I used is [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en), in which you should set up two profiles:
 
-# Pseudonymisation
+* A 'normal' one that's set to DIRECT connection
+* A 'BurpSuite' one that is set to http, with 127.0.0.1 for the server, and 8080 for the port
 
-Firstly you have pseudonymisation, which involves replacing data with identifiers to make it less identifiable. This isn’t anonymisation, but it is mentioned significantly within the GDPR laws as a defence. If your data is pseudonymised, privacy laws still apply.
+Once this is set up, you should be able to browse, with a bunch of warnings and broken links for secure webpages. The next step is to install Burp Suite's CA certificate, to get rid of these errors.
 
-# Ad Hoc
+1. Navigate to http://127.0.0.1:8080/ (The official docs say to go to http://burp/ but this will not work on ChromeOS)
+2. Click on 'CA Certificate' in the top right-hand corner
+3. Open ChromeOS settings, search for SSL and navigate to 'Manage Certificates'
+4. Select 'DER-encoded binary, single certificatel from the file type on the bottom left, select 'cacert.der' and click open
+5. Tick 'Trust this certificate for identifying websites' and click okay
 
-A common method that is applied when anonymisation is required doesn’t have a formal name, since it isn’t a formal process. It involves removing personally identifiable data like name, phone number, email address, etc., from the record set, and calling the resulting data ‘anonymous’. Unfortunately this is trivially easy to reverse, and in many cases individuals can still be identified in the data, even if their name isn’t attached. Add another dataset, and the information won’t be missing names for long. This isn’t a sound approach, and if a Data Protection Authority investigates a complaint, it’s likely they won’t regard this as anonymisation.
-
-# K-Anonymity
-
-Another, better approach is K-Anonymity. This is done by removing identifiable data from the data set until any search on the data will yield at least K - 1 results, so if your K value is 4, you’ll never be returned any less than 3 results from a search. This approach has been made into a communication protocol which has in turn been implemented in a series of Public APIs. If you are familiar with the site [HaveIBeenPwned](haveibeenpwned.com), this protocol is what it uses to inform password managers if credentials are compromised, without disclosing exact matches. Unfortunately if you are dealing with high dimensional datasets, it’s still pretty easy to reverse it.
-
-# Differential Privacy
-
-The best approach we have available at the moment is Differential Privacy. The way this works is as follows: suppose I ask you a question, such as ‘Do you speed when you drive?’ I will instead ask you to flip a coin. If it comes up heads, tell me yes or no if you speed when you drive. If it comes up tails, flip another coin, and if it comes up heads say yes, and if it comes up tails say no. So across a dataset of 1000 results, you know that 500 of those results will have been generated by a random coin toss. You can account for those random records mathematically, leaving you with statistically relevant data, but if you look at any individual record, you have no way of knowing if it is real, or if it was generated randomly. 
-
-# So what approach should you choose?
-
-If you don’t know where to start, reaching out to tertiary institutions may be a good start. The anonymisation approaches we have today are borne out of academia, and research departments should be able to help you create an approach for your data with with scientific basis and rigour.
-
-Depending on what you are protecting, and the volume of data, you may want to use a number of methods. You will want to erase some fields, while others you may want to reduce the accuracy of, such as replacing exact ages with age categories. The main point is that you should have a formal approach that provides real protection. In the event that you do have a data loss, you will need to demonstrate that you attempted to protect the data, and a documented approach is evidence of this.
+At this point you should be set up, and able to use Burp Suite without errors. Happy hunting!
