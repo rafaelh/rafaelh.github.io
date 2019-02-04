@@ -17,9 +17,13 @@ The US is distinct from many other countries in that it doesn’t have a federal
 When the most recent of these laws were passed, OSX and Windows XP were making their debut, Apple was releasing the iPod and Nokia had just created the first phone with a fully functional calendar and FM radio. With all-pervasive tracking simply not existing at the time, data privacy laws didn’t account for many of the issues that we see today. To exacerbate issues, many of these laws have been under attack. To use the Education industry as an example, FERPA has actually been weakened over time to allow non-consensual use and disclosure of data. This isn’t to say that the state governments have been content to let student privacy laws erode; since 2013, over 120 student privacy-related laws have been passed in at least 40 states. But this creates its own problem - if you are a US education institution with students from all over the country, are you observing 120+ privacy laws? I didn’t think so.
 
 {: style="text-align: center"}
-![OSX circa 2001]({{site.baseurl}}/assets/img/2019/2019-02-03-ccpa.jpg)
+![California's Consumer Protection Act]({{site.baseurl}}/assets/img/2019/2019-02-03-ccpa.jpg)
 
 This slow Balkanization of US privacy law was catapulted into the foreground last year when California passed the Consumer Privacy Act, which creates data rights and places obligations on any company dealing with California residents. Unlike many of the previous laws, the CCPA is a sweeping privacy law with significant impact for the organisations it applies to. Critics of the legislation say that it has been rushed, and there is no doubt that it was proposed, drafted and passed into law very quickly. It begins applying as of Jan 1st 2020, and to head it off there has been increased discussion of launching a new federal privacy law much like the GDPR.
+
+{: style="text-align: center"}
+![Tim Cook tweeting about Privacy]({{site.baseurl}}/assets/img/2019/2019-02-03-timcook.png)
+
 
 Anecdotally, there seems to be bipartisan support to get something through this year, but what is it going to look like? This is a debate that is already ongoing, with Intel proposing a draft law and Apple’s CEO Tim Cook repeatedly calling for legislation to be implemented. Microsoft, Google and Facebook have also voiced their support for such a law.
 
