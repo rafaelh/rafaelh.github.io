@@ -15,7 +15,11 @@ body {
   font-family: 'Lato', sans-serif;
   color: $body-color;
   background-image: url("/assets/img/background.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;}
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
