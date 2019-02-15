@@ -661,7 +661,11 @@ body {
   font-family: 'Lato', sans-serif;
   color: #515151;
   background-image: url("/assets/img/background.jpg");
-  margin: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
