@@ -3,7 +3,7 @@ title: Installing xRDP on Kali Linux
 date: 2019-10-13
 layout: post
 permalink: /2019/10/installing-xrdp-on-kali-linux/
-img: logos/kalilogo.png
+img: logos/kalilogo.jpg
 tags: [Security, Kali, Linux]
 ---
 There are a lot of complicated tutorials on how to get xRDP working on Kali Linux, when using Gnome. I suspect the tutorials have become complicated as they address a variety of bugs that xRDP and connecting software has had over time, but there isn't much you actually need to do:
