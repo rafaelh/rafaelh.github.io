@@ -1,6 +1,6 @@
 ---
 title: Installing xRDP on Kali Linux
-date: 2017-12-27
+date: 2019-10-13
 layout: post
 permalink: /2019/10/installing-xrdp-on-kali-linux/
 img: logos/kalilogo.png
