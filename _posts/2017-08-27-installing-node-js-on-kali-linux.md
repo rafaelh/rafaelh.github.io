@@ -10,8 +10,10 @@ Most of the guides I've found on how to do this are fairly involved, requiring y
 
 
 ``` sh
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+apt-get install -y nodejs
 ```
 
 The package **build-essential** is required for compiling and installing native packages, but it's already included in Kali's base image.
+
+As time moves on, you can see the most up to date Node.js version at [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
