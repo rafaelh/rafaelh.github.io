@@ -29,3 +29,8 @@ apt update && apt install code
 ```
 
 If you have previously installed the VSCode .deb package, you will likely get some warnings that dpkg can't remove some directories that aren't empty, but this won't interfere with the operation of the program. You will get a warning each time you open it as the root user, since that's generally not a good idea on most systems - I haven't found a way to suppress this thus far, but maybe that's not a bad thing.
+
+On the command line, you'll need to run the following to open VS Code as root:
+``` sh
+code --user-data-dir="~/.vscode-root"
+```
