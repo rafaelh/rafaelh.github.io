@@ -4,7 +4,7 @@ date: 2019-10-17
 layout: post
 permalink: /2019/10/installing-hyperion-on-kali-linux/
 img: logos/nullsecurity.jpg
-github_comments_issueid: "5"
+github_comments_issueid: "6"
 tags: [Security, Kali, Linux]
 ---
 Hyperion is a runtime encrypter for 32/64 bit portable executables, made by [NullSecurity](http://nullsecurity.net/), typically used to evade antivirus software. You can check for the most recent version [here](https://github.com/nullsecuritynet/tools/tree/master/binary/hyperion/release), and install it on Kali Linux with a variation of these commands:
