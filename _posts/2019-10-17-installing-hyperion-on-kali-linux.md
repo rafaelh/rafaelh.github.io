@@ -19,7 +19,7 @@ wget https://github.com/nullsecuritynet/tools/raw/master/binary/hyperion/release
 unzip Hyperion-1.2.zip
 
 # Then build it
-i686-w64-mingw32-c++ Hyperion-1.2/Src/Crypter/*.cpp hyperion.exe
+i686-w64-mingw32-c++ Hyperion-1.2/Src/Crypter/*.cpp -o hyperion.exe
 ```
 
 Where you put the built file now is up to you, but ```/usr/local/bin``` is the traditional location for locally built stuff.
