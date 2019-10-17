@@ -46,13 +46,13 @@ blockquote {
 pre {
   padding: 1rem 2rem;
   overflow-x: auto;
-
   code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
   }
 }
+
 
 table {
   border: 1px solid #aaa;
@@ -105,6 +105,7 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+  border-radius: 15px;
 }
 
 ::-moz-selection {
