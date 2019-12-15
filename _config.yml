@@ -23,8 +23,12 @@ analytics: UA-47729860-2
 
 # Author Settings
 author: Rafe Hart
+twitter: rafael_hart
 author-img: profile-photo.jpg
 about-author: Dad, techie, traveller. I quite like anything to do with security, privacy, and building software. He/him.
+
+
+# Theme Settings
 social-twitter: rafael_hart
 social-github: rafaelh
 social-linkedin: rafehart
@@ -39,6 +43,7 @@ github_comments_repository: rafaelh/rafaelh.github.io
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-sitemap
   - jekyll-feed
