@@ -22,7 +22,7 @@ When the most recent of these laws were passed, OSX and Windows XP were making t
 This slow Balkanization of US privacy law was catapulted into the foreground last year when California passed the Consumer Privacy Act, which creates data rights and places obligations on any company dealing with California residents. Unlike many of the previous laws, the CCPA is a sweeping privacy law with significant impact for the organisations it applies to. Critics of the legislation say that it has been rushed, and there is no doubt that it was proposed, drafted and passed into law very quickly. It begins applying as of Jan 1st 2020, and to head it off there has been increased discussion of launching a new federal privacy law much like the GDPR.
 
 {: style="text-align: center"}
-![Tim Cook tweeting about Privacy]({{site.baseurl}}/assets/img/2019/2019-02-03-timcook.png)
+![Tim Cook tweeting about Privacy]({{site.baseurl}}/assets/img/2019/2019-02-03-timcook.jpg)
 
 Anecdotally, there seems to be bipartisan support to get something [through this year](https://9to5mac.com/2018/11/28/us-privacy-law/), but what is it going to look like? This is a debate that is already ongoing, with Intel proposing a [draft law](https://usprivacybill.intel.com/) and Apple’s CEO Tim Cook repeatedly calling for legislation to be implemented. Microsoft, Google and Facebook have also [voiced their support](https://iapp.org/news/a/us-federal-privacy-law-apple-google-facebook-microsoft-all-hope-so/) for such a law.
 
