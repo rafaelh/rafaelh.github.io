@@ -17,7 +17,7 @@
 title: Rafe Hart
 description: Thoughts on security, privacy and software.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rafaelhart.com" # the base hostname & protocol for your site, e.g. http://example.com
 analytics:   UA-47729860-2
 
 # Author Settings
