@@ -3,25 +3,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
 	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
-
   {% if page.img %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}" property="og:image">
   {% else %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}" property="og:image">
   {% endif %}
-
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
     <meta content="{{ category }}" property="article:section">
     {% endfor %}
   {% endif %}
-
   {% if page.tags %}
     {% for tag in page.tags %}
     <meta content="{{ tag }}" property="article:tag">
     {% endfor %}
   {% endif %}
-  
+  <!-- Icons -->
   <link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
   <link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ "/assets/img/favicon/apple-touch-icon-57x57.png" | prepend: site.baseurl }}">
@@ -32,13 +29,6 @@
   <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/img/favicon/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
   <link rel="apple-touch-icon" sizes="152x152" href="{{ "/assets/img/favicon/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/img/favicon/apple-touch-icon-180x180.png" | prepend: site.baseurl }}">
-
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#263959">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#263959">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
