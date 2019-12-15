@@ -1,2 +1,2 @@
-# rafaelh.github.io
-A Jekyll blog. See the live site at [https://www.rafaelhart.com](https://www.rafaelhart.com).
+# rafaelhart.com
+A tech blog. See the live site at [https://rafaelhart.com](https://rafaelhart.com).
