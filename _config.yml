@@ -16,16 +16,16 @@
 
 title: Rafe Hart
 description: Thoughts on security, privacy and software. Trust, but verify.
-baseurl:   ""             # the subpath of your site, e.g. /blog
-url:       ""             # the base hostname & protocol for your site, e.g. http://example.com
-analytics: UA-47729860-2
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+analytics:   UA-47729860-2
 
 # Author Settings
 author: Rafe Hart
 author-img: profile-photo.jpg
 about-author: Dad, techie, traveller. I quite like anything to do with security, privacy, and building software. He/him.
 
-# Jekyll-seo-tag
+# jekyll-seo-tag
 twitter: 
   username: rafael_hart
   card: summary
