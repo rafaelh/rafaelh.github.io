@@ -4,6 +4,7 @@ date: 2004-02-09
 layout: post
 img: /2007/2007-11-26-update.png
 ---
+{: style="text-align: center"}
 Places I've been
 ![Places I've been]({{site.baseurl}}/assets/img/2004/2004-02-09-worldmap.jpg)
 
