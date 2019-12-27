@@ -1,9 +1,9 @@
 ---
-title: Project finished?
+title: Experiment finished?
 date: 2015-02-15
 layout: post
-permalink: /2015/02/project-finished/
-img: 2015/2015-02-15-project-finished.jpg
+permalink: /2015/02/experiment-finished/
+img: 2015/2015-02-15-experiment-finished.jpg
 tags: [cygwin]
 ---
 After 10 months of running the **http://cygwin.rafaelhart.com** sub-domain, I'm now getting about 500 hits a month on what is largely an SEO-un-optimized site, and with the other professional sites I've worked on, I've largely come to the conclusion that there are only two rules that matter for driving traffic to sites.

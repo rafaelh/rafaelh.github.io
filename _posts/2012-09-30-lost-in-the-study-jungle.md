@@ -6,10 +6,6 @@ permalink: /2012/09/lost-in-the-study-jungle/
 img: logos/rmit.png
 tags: [life]
 ---
-<blockquote>
-“I was recently on a tour of Latin America, and the only regret I have was that I didn't study Latin harder in school so I could converse with those people” - Dan Quayle
-</blockquote>
-
 It seems that the first casualty of a busy life is my blog. This is probably a healthy thing, but it does mean that when I look back on recent months, I find it hard to recall everything that I've been doing. There has been sleep school, trips away to the country, to the sea, celebrations, work, study, the thinnest sliver of a social life, and more. Fortunately Amber is recording a lot of this at [her blog](http://www.gypsycatdreams.com).
 
 {: style="text-align: center"}
