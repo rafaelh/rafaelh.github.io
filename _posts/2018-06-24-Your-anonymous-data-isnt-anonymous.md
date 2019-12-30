@@ -2,9 +2,8 @@
 title: Your Anonymous Data isn't Anonymous
 date: 2018-06-24
 layout: post
-img: 2018/2018-06-24-erasedata.jpg
-tags: [Privacy]
-github_comments_issueid: "2"
+featured_image: /assets/img/2018/2018-06-24-erasedata.jpg
+excerpt: It’s been said that data is the new oil, and for good reason; insights from analysing data can save money and create competitive advantage, especially as we combine data sets and start data mining. But individuals don’t necessarily want to be data mined, and laws like GDPR, GLBA, PIPEDA, FERPA, etc are limiting what we can do without that individual’s consent. GDPR in particular has no grandfathering of data collected previously, meaning that if you want to hold onto the data you have, you need to anonymise it.
 ---
 
 It’s been said that data is the new oil, and for good reason; insights from analysing data can save money and create competitive advantage, especially as we combine data sets and start data mining. But individuals don’t necessarily want to be data mined, and laws like GDPR, GLBA, PIPEDA, FERPA, etc are limiting what we can do without that individual’s consent. GDPR in particular has no grandfathering of data collected previously, meaning that if you want to hold onto the data you have, you need to anonymise it.
@@ -13,31 +12,29 @@ So we anonymise all the data we are going to keep for analysis, right? Well, yes
 
 First of all, it’s worth running through some concepts:
 
-* **Anonymous data is safer.** Everyone, with some rare exceptions, is covered by Privacy laws of some description, which gives them rights. If data is anonymous, it has been separated from that individual, so rules like consent, rectification and erasure no long apply.
-
+* **Anonymous data is safer**. Everyone, with some rare exceptions, is covered by Privacy laws of some description, which gives them rights. If data is anonymous, it has been separated from that individual, so rules like consent, rectification and erasure no long apply.
 * **Until it isn’t.** If you can deanonymize someone, laws such as GDPR apply in their full glory, at which point most uses of what was previously ‘anonymous’ data are now going to be considered illegal. 
-
 * **And it may not be hard.** Deanonymizing doesn’t mean working out someone’s name, it means being able to extrapolate any additional private data about the individual; if that happens, the data isn’t anonymous, and the law applies. This can be done by adding other data sets, such as those from the LinkedIn, MySpace, or myriad of other breaches using Excel and a bit of determination.
 
 Anonymising data only provides as much protection as the strength of the anonymisation you use. Fortunately, there are a range of approaches you can use - some are good, and some are less so:
 
-# Pseudonymisation
+## Pseudonymisation
 
 Firstly you have pseudonymisation, which involves replacing data with identifiers to make it less identifiable. This isn’t anonymisation, but it is mentioned significantly within the GDPR laws as a defence. If your data is pseudonymised, privacy laws still apply.
 
-# Ad Hoc
+## Ad Hoc
 
 A common method that is applied when anonymisation is required doesn’t have a formal name, since it isn’t a formal process. It involves removing personally identifiable data like name, phone number, email address, etc., from the record set, and calling the resulting data ‘anonymous’. Unfortunately this is trivially easy to reverse, and in many cases individuals can still be identified in the data, even if their name isn’t attached. Add another dataset, and the information won’t be missing names for long. This isn’t a sound approach, and if a Data Protection Authority investigates a complaint, it’s likely they won’t regard this as anonymisation.
 
-# K-Anonymity
+## K-Anonymity
 
 Another, better approach is K-Anonymity. This is done by removing identifiable data from the data set until any search on the data will yield at least K - 1 results, so if your K value is 4, you’ll never be returned any less than 3 results from a search. This approach has been made into a communication protocol which has in turn been implemented in a series of Public APIs. If you are familiar with the site [HaveIBeenPwned](haveibeenpwned.com), this protocol is what it uses to inform password managers if credentials are compromised, without disclosing exact matches. Unfortunately if you are dealing with high dimensional datasets, it’s still pretty easy to reverse it.
 
-# Differential Privacy
+## Differential Privacy
 
 The best approach we have available at the moment is Differential Privacy. The way this works is as follows: suppose I ask you a question, such as ‘Do you speed when you drive?’ I will instead ask you to flip a coin. If it comes up heads, tell me yes or no if you speed when you drive. If it comes up tails, flip another coin, and if it comes up heads say yes, and if it comes up tails say no. So across a dataset of 1000 results, you know that 500 of those results will have been generated by a random coin toss. You can account for those random records mathematically, leaving you with statistically relevant data, but if you look at any individual record, you have no way of knowing if it is real, or if it was generated randomly. 
 
-# So what approach should you choose?
+## So what approach should you choose?
 
 If you don’t know where to start, reaching out to tertiary institutions may be a good start. The anonymisation approaches we have today are borne out of academia, and research departments should be able to help you create an approach for your data with with scientific basis and rigour.
 
