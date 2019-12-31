@@ -4,7 +4,8 @@ date: 2016-05-27
 layout: post
 permalink: /2016/05/due-diligence/
 img: 2016/2016-05-27-due-diligence.jpg
-tags: [security, pcidss]
+featured_image: /assets/img/2016/2016-05-27-due-diligence.jpg
+excerpt: Checking things at part of due diligence is rarely the most fun activity in the world, but it does have a habit of turning up some surprising things. I've been doing some compliance checking for PCI DSS recently, and it turns out a lot of the providers I thought were PCIDSS compliant (and claimed to be) aren't.
 ---
 Checking things at part of due diligence is rarely the most fun activity in the world, but it does have a habit of turning up some surprising things. I've been doing some compliance checking for PCI DSS recently, and it turns out a lot of the providers I thought were PCIDSS compliant (and claimed to be) aren't.
 
