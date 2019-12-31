@@ -4,10 +4,10 @@ date: 2017-08-27
 layout: post
 permalink: /2017/08/installing-node-js-on-kali-linux/
 img: logos/nodejs.jpg
-tags: [nodejs, linux]
+featured_image: /assets/img/logos/nodejs.jpg
+excerpt: Most of the guides I've found on how to do this are fairly involved, requiring you to build from source and install without a .dpkg, which is messy if you ever want to change your installation. Installing Node.js is the same as for Debian.
 ---
-Most of the guides I've found on how to do this are fairly involved, requiring you to build from source and install without a .dpkg, which is messy if you ever want to change your installation. Installing Node.js is the same as for Debian:
-
+Most of the guides I've found on how to do this are fairly involved, requiring you to build from source and install without a .dpkg, which is messy if you ever want to change your installation. Installing Node.js is the same as for Debian.
 
 ``` sh
 curl -sL https://deb.nodesource.com/setup_12.x | bash -
