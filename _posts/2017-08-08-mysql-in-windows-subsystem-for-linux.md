@@ -4,7 +4,8 @@ date: 2017-08-08
 layout: post
 permalink: /2017/08/mysql-in-windows-subsystem-for-linux/
 img: logos/mysql.jpg
-tags: [mysql, wsl]
+featured_image: /assets/img/logos/mysql.jpg
+excerpt: I'm recording this because I haven't come across any other good explanations in my googling. If you are using WSL for web development, it's likely that you are going to want to install mysql. Unfortunately, when you run it, you start to get errors like "Can't start server Bind on TCP/IP port Address already in use". If you do get these, it's most likely because you've followed a set of instructions and skipped something in the preamble - you need to be on the latest version of windows.
 ---
 I'm recording this because I haven't come across any other good explanations in my googling. If you are using WSL for web development, it's likely that you are going to want to install mysql. Unfortunately, when you run it, you start to get errors like *"Can't start server: Bind on TCP/IP port: Address already in use"*. If you do get these, it's most likely because you've followed a set of instructions and skipped something in the preamble - you need to be on the latest version of windows.
 
