@@ -3,14 +3,13 @@ title: securityheaders.io
 date: 2016-02-07
 layout: post
 permalink: /2016/02/securityheaders-io/
-featured_image: 2016/2016-02-07-not-the-securityheaders-logo.png
+featured_image: /assets/img/2016/2016-02-07-not-the-securityheaders-logo.png
 excerpt: According to Verizon, 9.4% of breaches last year occurred through vulnerabilities in web applications. A lot of these vulnerabilities were SQL injections and the like, which really shouldn't happen these days, especially when you consider that most professional companies should be using a framework for development. However, many of the other potential vulnerabilities can be reduced by tightening the scope of your server config.
 ---
 According to Verizon, 9.4% of breaches last year occurred through vulnerabilities in web applications. A lot of these vulnerabilities were SQL injections and the like, which really shouldn't happen these days, especially when you consider that most professional companies should be using a framework for development. However, many of the other potential vulnerabilities can be reduced by tightening the scope of your server config.
 
 This is where [securityheaders.io](https://securityheaders.io) is a great tool. It's a [Scott Helme](https://scotthelme.co.uk/) project and it does what is says on the label - checks the headers of your server for security improvements.
 
-{: style="text-align: center"}
 ![Example of securityheaders.io output]({{site.baseurl}}/assets/img/2016/2016-02-07-securityheaders.png)
 (I'm not using public key pins because LetsEncrypt certificates only last 3 months, and I'm going for low maintenance... until I can automate it)
 
