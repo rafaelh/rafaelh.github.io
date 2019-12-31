@@ -3,15 +3,15 @@ title: Windows 10 Privacy
 date: 2017-03-27
 layout: post
 permalink: /2017/03/windows-10-privacy/
-img: 2017/2017-03-27-windows-10-privacy.jpg
-tags: [privacy]
+featured_image: /assets/img/2017/2017-03-27-windows-10-privacy.jpg
+excerpt: Last week in the US the FCC privacy regulations were repealed, which, amongst other things, allows ISPs to track your internet usage and sell it to third parties. It's a good time to think about privacy.
 ---
 Last week in the US the [FCC privacy regulations](https://www.businessinsider.com.au/republicans-kill-fcc-broadband-privacy-rules-2017-3?r=US&IR=T) were repealed, which, amongst other things, allows ISPs to track your internet usage and sell it to third parties. It's a good time to think about privacy.
 
 Windows 10 doesn't have the best record on privacy. Most app teams need to get data about their users to improve their products, and Microsoft is no different in that respect. If you want to look deeper into the issue, you can read Microsoft's reasoning for their [data gathering](https://technet.microsoft.com/en-au/itpro/windows/manage/configure-windows-telemetry-in-your-organization), and the EFF's [criticism of it](https://www.eff.org/deeplinks/2016/08/windows-10-microsoft-blatantly-disregards-user-choice-and-privacy-deep-dive).
 
 
-# Improve your Windows Privacy
+## Improve your Windows Privacy
 There are multiple tools to turn off Windows 10 telemetry, depending on what services you are prepared to go without. There is a slightly melodramatic naming convention for these tools that ever so subtly hints at what their authors might say on this topic if you got a few beers into them.
 
 * [Destroy-Windows-10-Spying](https://github.com/Nummer/Destroy-Windows-10-Spying/releases/tag/1.6.722) adds host entries to block telemetry servers, and shuts down a range of Windows tasks that try to report your data
@@ -28,7 +28,7 @@ A VPN is the only real defence against this, but it is of limited use if you sti
 
 For a simple solution, you can change your DNS servers to [OpenDNS](https://www.opendns.com/setupguide/) or [Google DNS](https://developers.google.com/speed/public-dns/). Both keep logs, which isn't ideal, but they aren't exactly known for handing them over. A better solution is [Simple DNScrypt](https://simplednscrypt.org/), which gives you non-logging options, and implements the dnscrypt protocol.
 
-# Improve your browser privacy
+## Improve your browser privacy
 
 Your browser broadcasts a lot of information. If you are signed in on Facebook, and you visit another site that has placed an link on their page, Facebook knows about it.
 
@@ -36,7 +36,7 @@ There is a 'Do Not Track' setting in most browsers these days, but the best appr
 
 While you are there, you should install <a href="https://www.eff.org/https-everywhere">HTTPS-Everywhere</a> and uBlock Origin (<a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en">Chrome</a> / <a href="https://addons.mozilla.org/en-us/firefox/addon/ublock-origin/">Firefox</a>) to remove potentially malicious ads and upgrade insecure connections where possible.
 
-# Improve your social media privacy
+## Improve your social media privacy
 Make sure you are happy with the list of apps connected to each of your social media accounts, because each of them is likely to be recording as much information as possible.
 
 * Microsoft - <a href="https://account.microsoft.com/privacy">https://account.microsoft.com/privacy</a>
