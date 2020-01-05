@@ -54,7 +54,6 @@ sudo ufw allow 3389/tcp
 
 Then in Windows, you'll need to lower your color depth in the RDP settings when you make a connection:
 
-{: style="text-align: center"}
 ![RDP Color Settings]({{site.baseurl}}/assets/img/2019/2019-10-13-rdp-color-settings.jpg)
 
 And it should work from this point.
