@@ -42,5 +42,5 @@ Cloud technologies are already starting to bake this in. Data stores like Amazon
 ![Azure is really getting it right]({{site.baseurl}}/assets/img/2020/2020-01-05-bright-ideas.png)
 
 ## Where to from here?
-I don't think there is a right answer to how this field is going to come together, since it's still happening in front of us, but there are real advantages for those who can make their platforms more trustworthy than their competitors. The question I'd pose to other Privacy professionals watching this field is this; how do you believe the gap between legislation and implementation is going to be addressed? 
+I don't think there is a right answer to how this field is going to come together, since it's still happening in front of us, and I don't claim expertise in all these fields, but I do believe there are real advantages for those who can make their platforms more trustworthy than their competitors. The question I'd pose to other Privacy professionals watching this field is this; how do you believe the gap between legislation and implementation is going to be addressed? 
 
