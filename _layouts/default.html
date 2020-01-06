@@ -42,8 +42,6 @@
 	<style>{{ site.data.settings.advanced_settings.custom_styles }}</style>
 	{% endif %}
 
-	{% if site.data.settings.advanced_settings.analytics_code %}
-	<!-- Analytics Code -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47729860-2"></script>
 	<script>
@@ -52,8 +50,6 @@
   		gtag('js', new Date());
   		gtag('config', 'UA-47729860-2');
 	</script>
-	{{ site.data.settings.advanced_settings.analytics_code }}
-	{% endif %}
 
 	{% if site.data.settings.advanced_settings.header_js %}
 	<!-- Extra Header JS Code -->
@@ -86,7 +82,7 @@
 
 
 	<!-- Javascript Assets -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="{{ '/js/journal-min.js' | relative_url }}"></script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
