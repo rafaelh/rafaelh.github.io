@@ -1,7 +1,7 @@
 ---
 title: Contact
-subtitle: Journal comes with a built-in contact form, that's free and easy to set up.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+subtitle: Feel free to get in touch
+description: A contact form
 featured_image: /assets/img/demo/demo-portrait.jpg
 ---
 
