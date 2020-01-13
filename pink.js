@@ -1,1 +1,1 @@
-document.body.style.backgroundColor = “deeppink”
+document.body.style.backgroundColor = “deeppink”;
