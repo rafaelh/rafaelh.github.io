@@ -39,13 +39,10 @@ Save this as `hello.go`. You can then build this with `go build hello.go`. This 
 Now that you have this working, take a look at the following repositories:
 
 * [gwdomains](https://github.com/fuzzerk/gwdomains)
-* [tok](https://github.com/tomnomnom/hacks/tok)
-* [fff](https://github.com/tomnomnom/hacks/fff)
 * [httprobe](https://github.com/tomnomnom/httprobe)
 * [waybackurls](https://github.com/tomnomnom/waybackurls)
 * [gf](https://github.com/tomnomnom/gf)
 * [assetfinder](https://github.com/tomnomnom/assetfinder)
 * [anew](https://github.com/tomnomnom/anew)
-* [html-tool](https://github.com/tomnomnom/hacks/html-tool)
 
 Happy hacking!
