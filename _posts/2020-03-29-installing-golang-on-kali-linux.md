@@ -36,7 +36,7 @@ func main() {
 
 Save this as `hello.go`. You can then build this with `go build hello.go`. This should yield an executable file named `hello`.
 
-You should now be ready to install any Go programs that you want. They will be downloaded to your home directory and compiled there, which is a bit *messy* for my taste. As a result, I use something similar to the following python script to change the prefix for each Go module so that it installs into a separate `/opt` directory and soft links to `/usr/local/bin`. You'll need to change the list of modules to install to your preferences, but it should work as is:
+With this setup, Go modules will be downloaded to your home directory and compiled there, which is a bit *messy* for my taste. As a result, I use something similar to the following python script to change the prefix for each Go module so that it installs into a separate `/opt` directory and soft links to `/usr/local/bin`. You'll need to change the list of modules to install to your preferences, but it should work as is:
 
 ``` python
 #!/usr/bin/env python3
@@ -71,7 +71,7 @@ if __name__ == '__main__':
         install_golang_module(module)
 ```
 
-The full update script I use normally does a bunch of additional things - you can take a look at [github.com/rafaelh/update-kali](https://github.com/rafaelh/update-kali).
+The full update script I use normally does a bunch of additional things. You can take a look at [github.com/rafaelh/update-kali](https://github.com/rafaelh/update-kali).
 
 Now that you have Go working, take a look at the following repositories:
 
