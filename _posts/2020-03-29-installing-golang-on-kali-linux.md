@@ -36,7 +36,7 @@ func main() {
 
 Save this as `hello.go`. You can then build this with `go build hello.go`. This should yield an executable file named `hello`.
 
-You should now be ready to install any Go programs that you want. They will be downloaded to your home directory and compiled there, which is a bit *messy* for my tastes. As a result, I use something similar to the following python script to change the prefix for each Go module so that it installs into a separate `/opt` directory and soft links to `/usr/local/bin`. You'll need to change the list of modules to install to your taste, but it should work as is:
+You should now be ready to install any Go programs that you want. They will be downloaded to your home directory and compiled there, which is a bit *messy* for my taste. As a result, I use something similar to the following python script to change the prefix for each Go module so that it installs into a separate `/opt` directory and soft links to `/usr/local/bin`. You'll need to change the list of modules to install to your preferences, but it should work as is:
 
 ``` python
 #!/usr/bin/env python3
@@ -50,7 +50,8 @@ def install_golang_module(module):
     if not os.path.exists("/opt/" + modulename):
         print("Installing go module " + modulename)
         cmdseries = ["sudo -E go get -u " + module,
-                     "sudo ln -s /opt/" + modulename + "/bin/" + modulename + " /usr/local/bin/" + modulename]
+                     "sudo ln -s /opt/" + modulename + "/bin/" + \
+		     modulename + " /usr/local/bin/" + modulename]
         os.environ["GOPATH"] = "/opt/" + modulename
         for cmdstring in cmdseries:
             os.system(cmdstring)
@@ -59,7 +60,6 @@ if __name__ == '__main__':
     ''' These go tools will be installed globally. '''
     
     golang_modules_to_install = ['github.com/tomnomnom/assetfinder',
-                                 'github.com/projectdiscovery/subfinder/cmd/subfinder',
                                  'github.com/lc/gau',
                                  'github.com/theblackturtle/wildcheck',
                                  'github.com/tomnomnom/httprobe',
@@ -81,5 +81,6 @@ Now that you have Go working, take a look at the following repositories:
 * [gf](https://github.com/tomnomnom/gf)
 * [assetfinder](https://github.com/tomnomnom/assetfinder)
 * [anew](https://github.com/tomnomnom/anew)
+* [dalfox](github.com/hahwul/dalfox)
 
 Happy hacking!
