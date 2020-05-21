@@ -12,7 +12,7 @@ Even with the best of intentions, the average pentest scope is a small subset of
 
 The point I'd like to make with what follows is that whether you have the funds and security maturity to join a bug bounty program or not, you can use those techniques to find flaws before your real adversaries do, and thanks to the thriving bug bounty community there are a variety of tools which make the process reasonably straightforward for someone with a technical background.
 
-What follows isn't intented to be a comprehensive guide on bug bounty tools or methods, but the idea is to get you thinking about what tests you can perform on your own company, and some tools I've found helpful for that process.
+What follows isn't intended to be a comprehensive guide on bug bounty tools or methods, the idea is to get you thinking about what tests you can perform on your own company, and some tools I've found helpful for that process.
 
 ## Google yourself first
 Google knows all, and in it's indexes you can find many things that shouldn't be there. As the [Google Hacking Database](https://www.exploit-db.com/google-hacking-database) shows, there are many sensitive files that have unknowingly been made public. Do you know what there is out there on your company? Here are two google queries to test, replacing 'Target' with your company name:
