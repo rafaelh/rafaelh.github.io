@@ -10,7 +10,7 @@ Have you ever had a pentest, to check your company's security?
 
 Even with the best of intentions, the average pentest scope is a small subset of the targets in a company. Usually it's about triaging work; the more targets you test, the more time it takes, the more you pay and the more you have to fix. So most scopes stay small out of neccessity. But not all companies operate in this way; some join bug bounty programs where they pay monetary rewards for hackers who find a way into their system. And their scope? It varies from program to program, but it's often everything under their primary domain (*.example.com). This is a lot more realistic, because it's what an attacker will target.
 
-The point I'd like to make with what follows is that whether you have the funds and security maturity to join a bug bounty program or not, you can use those techniques to find flaws before your real adversaries do, and thanks to the thriving bug bountry community there are a variety of tools which make the process reasonably straightforward for someone with a technical background.
+The point I'd like to make with what follows is that whether you have the funds and security maturity to join a bug bounty program or not, you can use those techniques to find flaws before your real adversaries do, and thanks to the thriving bug bounty community there are a variety of tools which make the process reasonably straightforward for someone with a technical background.
 
 What follows isn't intented to be a comprehensive guide on bug bounty tools or methods, but the idea is to get you thinking about what tests you can perform on your own company, and some tools I've found helpful for that process.
 
