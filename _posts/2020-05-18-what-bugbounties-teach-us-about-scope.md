@@ -70,7 +70,7 @@ Once you have a list of responding http servers, you can use a crawling tool to 
 You can reduce the links found to a more promising subset with something like the following:
 
 ``` sh
-cat urls.txt | grep "=" | grep -v ".jpg\|.png\|.css\|.js" | yourattacktool
+cat urls.txt | grep "=" | grep -v ".jpg\|.png\|.css\|.js" | yourattacktool (eg dalfox)
 ```
 
 ### Attacking endpoints
