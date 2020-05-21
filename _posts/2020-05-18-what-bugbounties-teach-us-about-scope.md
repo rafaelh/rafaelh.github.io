@@ -39,7 +39,7 @@ site:paste.ubuntu.com | site:paste.xinu.at
 Shodan indexes the open ports and services of the world. You may not find your own assets on [Shodan](https://www.shodan.io/), but you might find your customers, and you can warn them.
 
 ## What is your real attack surface?
-Any subdomain of your main site is likely fair game for an attacker, and you should know what you have that is discoverable. You may not feel your dev.example.com site is fair game, but if an attacker can use that to pivot on to your production resources, they will. There are **many** tools for subdomain discovery:
+Any subdomain of your main site is fair game for an attacker, and you should know what you have that is discoverable. You may not feel your dev.example.com site is fair game, but if an attacker can use that to pivot on to your production resources, they will. There are *many* tools for subdomain discovery:
 
 * [Amass](https://github.com/OWASP/Amass) ❤ (my favourite)
 * [assetfinder](https://github.com/tomnomnom/assetfinder)
