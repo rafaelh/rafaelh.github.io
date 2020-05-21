@@ -54,7 +54,7 @@ To get the best results, these tools take some setup, as they need credentials f
 
 So now you have a huge file of potential subdomains, many of which are going to be wrong. The beauty of the tools that have come out of the bug bounty ecosystem is that they follow the old school unix philosophy of being able to be chained together. With that in mind you can use the following tools:
 
-* [massdns](https://github.com/blechschmidt/massdns) - built to scan the **whole** internet, massdns will rapidly confirm which are real
+* [massdns](https://github.com/blechschmidt/massdns) - built to scan the whole internet, massdns will rapidly confirm which are real
 * [wildcheck](https://github.com/theblackturtle/wildcheck) - this removes wildcard domains (eg *.app.example.com)
 * [httprobe](https://github.com/tomnomnom/httprobe) - see which domains have responding web servers
 
