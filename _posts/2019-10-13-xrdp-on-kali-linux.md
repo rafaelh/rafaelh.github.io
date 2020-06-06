@@ -4,10 +4,12 @@ date: 2019-10-13
 layout: post
 permalink: /2019/10/installing-xrdp-on-kali-linux/
 featured_image: /assets/img/logos/kalilogo.jpg
-excerpt: There are a lot of complicated tutorials on how to get xRDP working on Kali Linux, when using Gnome. I suspect the tutorials have become complicated as they address a variety of bugs that xRDP and connecting software has had over time, but there isn't much you actually need to do. Here are the steps to be able to RDP into your Kali box locally, and via an SSH tunnel over the internet.
+excerpt: There are a lot of complicated tutorials on how to get xRDP working on Kali Linux. I suspect the tutorials have become complicated as they address a variety of bugs that xRDP and connecting software has had over time, but there isn't much you actually need to do. Here are the steps to be able to RDP into your Kali box locally, and via an SSH tunnel over the internet.
 ---
 
-There are a lot of complicated tutorials on how to get [xRDP](http://xrdp.org/) working on Kali Linux, when using Gnome. I suspect the tutorials have become complicated as they address a variety of bugs that xRDP and connecting software has had over time, but there isn't much you actually need to do.
+There are a lot of complicated tutorials on how to get [xRDP](http://xrdp.org/) working on Kali Linux. I suspect the tutorials have become complicated as they address a variety of bugs that xRDP and connecting software has had over time, but there isn't much you actually need to do.
+
+Note that if you are using Gnome, you'll run into issues. I have got RDP working with Gnome before, but I haven't been able to create a reliable set of steps to replicate it, as it usually starts working after several hours of messing around. If this is you, then you can try the below, but it may just be your starting point.
 
 ## Install xRDP
 
@@ -24,7 +26,7 @@ sudo systemctl restart xrdp
 If you get this message there are a few potential fixes. The one I use is to add the following file to policy kit, and restart it:
 
 ``` sh
-# Create /etc/polkit-1/rules.d/02-allow-colord.rules, 
+# Create /etc/polkit-1/rules.d/02-allow-colord.rules,
 # and insert the following as its contents:
 
 polkit.addRule(function(action, subject) {
@@ -38,6 +40,9 @@ polkit.addRule(function(action, subject) {
       return polkit.Result.YES;
    }
 });
+
+# Note that 'sudo' can be any group, but since your normal user is likely in that group, this
+# setting should work.
 
 # Then restart policy kit
 sudo systemctl restart polkit
