@@ -20,9 +20,8 @@ sudo systemctl enable xrdp
 sudo systemctl restart xrdp
 ```
 
-### Fix Polkit
-
-You will also need to add the following file to policy kit, and restart it:
+### "Authentication is required to create a color managed device"
+If you get this message there are a few potential fixes. The one I use is to add the following file to policy kit, and restart it:
 
 ``` sh
 # Create /etc/polkit-1/rules.d/02-allow-colord.rules, 
@@ -35,7 +34,7 @@ polkit.addRule(function(action, subject) {
         action.id == "org.freedesktop.color-manager.delete-profile" ||
         action.id == "org.freedesktop.color-manager.modify-device" ||
         action.id == "org.freedesktop.color-manager.modify-profile") &&
-        subject.isInGroup("vglusers")) {
+        subject.isInGroup("sudo")) {
       return polkit.Result.YES;
    }
 });
