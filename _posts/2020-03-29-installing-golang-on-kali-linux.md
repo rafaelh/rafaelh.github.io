@@ -81,6 +81,6 @@ Now that you have Go working, take a look at the following repositories:
 * [gf](https://github.com/tomnomnom/gf)
 * [assetfinder](https://github.com/tomnomnom/assetfinder)
 * [anew](https://github.com/tomnomnom/anew)
-* [dalfox](github.com/hahwul/dalfox)
+* [dalfox](https://github.com/hahwul/dalfox)
 
 Happy hacking!
