@@ -123,7 +123,7 @@ In 2020, all browsers are Chrome... well, except for Firefox and an assortment o
 
 For HIGH risk scenarios, use [Tor browser](https://www.torproject.org/download/) and don't log in to anything.
 
-**Browser Choice:** I would recommend you use Firefox, as it's the only major browser not in the data collection business. If you use Chrome, Edge, Safari, etc, do so because you are using other services in those ecosystems, since they will already be aggreating your data through that.
+**Browser Choice:** I would recommend you use Firefox, as it's the only major browser not in the data collection business. If you use Chrome, Edge, Safari, etc, do so because you are using other services in those ecosystems, since they will already be aggregating your data through that.
 
 **Browser Plugins:** You can limit how sites track you, and which are able to show you ads with the following plugins. Remember that ads can deliver malware, cryptominers, etc, so it is reasonable to turn them off. It's also reasonable to put in exceptions for sites you trust, or to pay subscriptions to support sites that have an ad-free option.
 
