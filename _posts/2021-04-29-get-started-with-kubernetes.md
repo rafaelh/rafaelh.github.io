@@ -4,7 +4,7 @@ date: 2021-04-29
 layout: post
 published: true
 permalink: /2021/04/getting-started-with-kubernetes/
-featured_image: /assets/img/2017/2017-03-27-windows-10-privacy.jpg
+featured_image: /assets/img/2021/2021-04-29-containers.jpg
 excerpt: Kubernetes is getting popular fast, and for good reason.
 ---
 
