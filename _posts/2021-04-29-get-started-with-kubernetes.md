@@ -5,17 +5,17 @@ layout: post
 published: true
 permalink: /2021/04/getting-started-with-kubernetes/
 featured_image: /assets/img/2021/2021-04-29-containers.jpg
-excerpt: Kubernetes is getting popular fast, and for good reason.
+excerpt: Kubernetes is getting popular fast, and for good reason. It optimizes the delivery of container workloads, allows for automatic failover, kills misbehaving pods. Here are some of the tools to get started.
 ---
 
-Kubernetes is a container orchestration technology designed at Google and now developed by an Open Source community. It is rapidly becoming the template for large application deployments since it gives companies an easy way to implement the experience of some of the world's best SREs, that has been serialized and put into the Kubernetes standard.
+Kubernetes is a container orchestration technology designed at Google and now developed by an open source community. It is rapidly becoming the template for large application deployments since it gives companies an easy way to implement the experience of some of the world's best SREs, all of which has been serialized and put into the Kubernetes standard.
 
 ![Kubernetes is so hot right now]({{site.baseurl}}/assets/img/2021/2021-04-29-kubernetes-so-hot-right-now.jpg)
 
 To get started experimenting with it, you will need a series of tools on your client, and then a kubernetes cluster to connect to.
 
 ## Client Setup
-This differs by OS, but the main tools you will initially need are kubectl and git. In my case I also need the Azure CLI since I'm alternating between AKS and Minikube. There are GUI tools like [Octant](https://github.com/vmware-tanzu/octant), but kubectl is the official way of accessing the Kubernetes control plane, and will be updated with all the latest features on each release.
+This differs by OS, but the main tools you will initially need are `kubectl` and `git`. In my case I also need the Azure CLI since I'm alternating between AKS and Minikube. There are GUI tools like [Octant](https://github.com/vmware-tanzu/octant), but kubectl is the official way of accessing the Kubernetes control plane, and will be updated with all the latest features on each release.
 
 ```powershell
 # If you are on Windows 10 and have chocolately installed:
@@ -27,6 +27,7 @@ There are a variety of tools that let you run Kubernetes locally, as a cluster w
 
 * [Minikube](https://minikube.sigs.k8s.io/docs/start/) - a single node cluster that is simple to set up. Runs on Linux, macOS and Windows.
 * [Microk8s](https://microk8s.io/docs) - much like minikube and also available on Linux, macOS and Windows. On Linux it uses snap for delivery.
+* [kind](https://kind.sigs.k8s.io/docs/user/quick-start/) - another multi-os option.
 
 You can google for any number of alternatives. I'm using minikube, which on windows/chocolatey is installed with:
 ```powershell
@@ -122,7 +123,8 @@ If you now do `kubectl get pods -o wide` you should see your apache pod spun up.
 
 
 ## Services and Ingress
-Once a pod is spun up in Kubernetes, you can forward it to your local machine to access it, with something similar to the following:
+Once a pod is spun up in Kubernetes, you can forward it to your local machine to access it, with a port forwarding command:
+
 ```bash
 kubectl port-forward deployment/<podname> 8080:80
 ```
