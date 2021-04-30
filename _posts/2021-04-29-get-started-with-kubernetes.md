@@ -46,8 +46,8 @@ kubectl get namespaces
 # Create a new namespace
 kubectl create namespace rhart-scratch
 
-# If you want to avoid typing '-n <yournamespace>' on every command, you can set the context
-# to your chosen namespace:
+# If you want to avoid typing '-n <yournamespace>' on every command,
+# you can set the context to your chosen namespace:
 kubectl config set-context --current --namespace=<yournamespace>
 ```
 
@@ -56,10 +56,10 @@ Each Kubernetes cluster is made up of nodes. The nodes are individual machines o
 
 ```bash
 # Show nodes
-kubectl get nodes -o wide -n <yournamespace>
+kubectl get nodes -o wide
 
 # Show pods
-kubectl get pods -o wide -n <yournamespace>
+kubectl get pods -o wide
 ```
 
 ## Deployments
