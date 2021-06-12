@@ -1,8 +1,8 @@
 ---
 title: Installing Golang on Kali Linux
-date: 2020-03-29
+date: 2021-06-12
 layout: post
-permalink: /2020/03/installing-golang-on-kali-linux/
+permalink: /2021/06/installing-golang-on-kali-linux/
 featured_image: /assets/img/2020/2020-03-29-golang-hacker.jpg
 excerpt: Go is an opensource programming language that is lean, mean and built for concurrency. Large numbers of hacking tools are built in this language and it is becoming the default for automation tools as well. Here is the process to get it running in Kali Linux.
 ---
