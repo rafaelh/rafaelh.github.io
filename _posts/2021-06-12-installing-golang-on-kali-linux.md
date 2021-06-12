@@ -7,7 +7,7 @@ featured_image: /assets/img/2020/2020-03-29-golang-hacker.jpg
 excerpt: Go is an opensource programming language that is lean, mean and built for concurrency. Large numbers of hacking tools are built in this language and it is becoming the default for automation tools as well. Here is the process to get it running in Kali Linux.
 ---
 
-If you are anything like me, you are more likely to Google how to install a golang than do a apt search. If that brought you here, then this is what youare after:
+If you are anything like me, you are more likely to Google how to install a golang than do an apt search. If that brought you here, then this is what you are after:
 
 ``` sh
 # First, install the package
