@@ -31,9 +31,9 @@ Now, I'm terrible at maths, so that's mostly gibberish to me. I find it easier t
 ```python
 import pandas as pd
 
-# A Sample DataFrame. A favourable outcome is a '1'. The Group represents two
-# different sets of people being analysed against that outcome. In practice this
-# will likely be a giant CSV file.
+# A Sample DataFrame. A favourable outcome is a '1'. The Group represents
+# two different sets of people being analysed against that outcome. In 
+# practice this will likely be a giant CSV file.
 data = {
     'Outcome': [1, 0, 1, 1, 0, 1, 0, 0, 1, 0],
     'Group': ['A', 'A', 'B', 'B', 'A', 'B', 'A', 'B', 'A', 'B']
@@ -47,9 +47,9 @@ prob_group_b = df[df['Group'] == 'B']['Outcome'].mean()
 # Calculate Statistical Parity
 statistical_parity = abs(prob_group_a - prob_group_b)
 
-# If the statistical parity equals 0, each group has the same chance of having a
-# favourable outcome. If it deviates from 0 then there is a disparity of how
-# decisions are made between the groups.
+# If the statistical parity equals 0, each group has the same chance 
+# of having a favourable outcome. If it deviates from 0 then there is 
+# a disparity of how decisions are made between the groups.
 print(f"Statistical Parity: {statistical_parity}")
 ```
 
