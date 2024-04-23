@@ -16,8 +16,7 @@ Testing for bias in AI is done through statistical analysis to provably demonstr
 
 What follows are a few methods that can be used as part of testing: Statistical Parity, Equality of Opportunity, Disparate Impact, and Disaggregated Analysis.
 
-
-# Statistical Parity
+## Statistical Parity
 Statistical or demographic parity measures whether the likelihood of a favourable outcome is independent of membership in a specified group. It's calculated like this:
 
 ***P(Ŷ = 1 ∣ G = g1​) = P(Ŷ = 1 ∣ G = g2​)***
@@ -54,7 +53,7 @@ statistical_parity = abs(prob_group_a - prob_group_b)
 print(f"Statistical Parity: {statistical_parity}")
 ```
 
-# Equality of Opportunity
+## Equality of Opportunity
 Equality of Opportunity is met when everyone in a sample has the same chance of gaining a positive outcome, such as making past an HRIS's AI screening system. It uses True Positive rates (favourable outcomes) to determine that each group succeeds to the same degree.
 
 True Positive Rate (TPR) is calculated as **TPR=TP/TP+FN**.
@@ -71,12 +70,12 @@ Example:
 
 The disparity between the True Positive Rates then shows you to what degree each group is treated favourably by the tool.
 
-# Disparate Impact
+## Disparate Impact
 Apparently this is measured by the "80% rule". This metric considers a model fair if the positive outcome rate for any group is not less than 80% of the rate for the group with the highest positive outcome rate. I find myself thinking of it as 'Minimum Viable Fairness' since it clearly tolerates a quantity of disparity.
 
-# Disaggregated Analysis
+## Disaggregated Analysis
 Lastly, disaggregated analysis involves breaking down aggregate data into smaller subgroups to understand how outcomes differ across these groups. This type of analysis can identify hidden patterns or biases that may not be visible in a broader analysis where volume of data may hide pockets of bias. It allows for a detailed examination of how different factors such as ethnicity, gender, age, or socioeconomic status affect outcomes within a dataset. This is done with a range of statistical methods; there isn't a common set of calculations that can be performed.
 
 
-In summary...
+## In summary...
 There are a ton of other methods because it's maths, but these few give a pretty good taste of how testing can be performed. What we will probably see is a burgeoning new industry of external consultancies who will recruit university students to do this in python and excel and charge them out at a healthy day rate.
