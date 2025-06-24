@@ -37,8 +37,11 @@ If your knowledge base is a lake, each RAG prompt draws a bucket from it, but th
 
 # Structuring your Knowledgebase
 
+
 ## Chunk for context, not size
-Split text so that each chunk can answer a single user question without its neighbours. Aim for something in the 50 to 300 token range, adjusting based on what is necessary to answer the question. How big is a token? [Glad you asked](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them); about 4 characters.
+Split text so that each chunk can answer a single user question without its neighbours. You should aim for something in the 50 to 300 token range, adjusting based on what is necessary to answer the question. How big is a token? [Glad you asked](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them); about 4 characters. Depending on the RAG tools you are using, its likely that you will be able to tune the size. Azure AI Search for example suggests starting at [256 tokens](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents).
+
+
 
 ## Attach rich metadata
 Your content should be annotated with metadata - file path, author, publish date, security tag - anything that lets you filter before scoring. Good metadata improves the semantic search and since its only the chunk that is sent to the LLM, it doesn't drive up your token count and costs. How you add metadata will depend on the system you are using
