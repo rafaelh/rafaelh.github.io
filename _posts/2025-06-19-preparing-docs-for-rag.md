@@ -37,9 +37,8 @@ If your knowledge base is a lake, each RAG prompt draws a bucket from it, but th
 
 # Structuring your Knowledgebase
 
-
 ## Chunk for context, not size
-Split text so that each chunk can answer a single user question without its neighbours. You should aim for something in the 50 to 300 token range, adjusting based on what is necessary to answer the question. How big is a token? [Glad you asked](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them); about 4 characters. Depending on the RAG tools you are using, its likely that you will be able to tune the size. Azure AI Search for example suggests starting at [256 tokens](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents).
+Split text so that each chunk can answer a single user question without its neighbours. You should aim for something in the 50 to 300 token range, adjusting based on what is necessary to answer the question. How big is a token? [Glad you asked](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them); about 4 characters, but this includes spaces, and will vary from model to model. You can estimate the number of tokens in a block of text using [OpenAI's Tokenizer](https://platform.openai.com/tokenizer) or do a search for one of many other similar tools. OpenAI themselves use the [tiktoken](https://github.com/openai/tiktoken) python byte pair encoding (BPE) library, so building your own tool is relatively straightforwards. Depending on the RAG tools you are using, its likely that you will be able to tune the size. Azure AI Search for example suggests starting at [256 tokens](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents).
 
 
 
