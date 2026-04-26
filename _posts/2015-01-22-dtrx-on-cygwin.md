@@ -14,7 +14,7 @@ tar xvf dtrx-7.1.tar.gz
 cd dtrx-7.1
 python setup.py install --prefix=/usr/local
 
-# Then just make sure that you have /usr/local/bin in your cygwin path, with a line like 
+# Then just make sure that you have /usr/local/bin in your cygwin path, with a line like
 # the following in your .bashrc
 PATH="$PATH:/usr/local/bin"
 ```

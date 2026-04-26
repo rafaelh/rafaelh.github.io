@@ -19,4 +19,3 @@ I'm happy the whole course is over; I learnt a lot, and I am going to miss some 
 * When you've finished, you'll need to spend some time rebuilding your social skills. After two years, you get out of the habit of doing anything beyond communicating the bare essentials. Perhaps that's also due to the amount of things you need to juggle, but again, I'll be devoting some time to getting back in swing of social events.
 
 Its going to be another 6 months before I do the formal graduation ceremony, but I'm glad all the work is done. It's been a great experience; not easy, but worth it. I'm looking forward to spending more time with my wife, who's hard work gave me the time and space I needed to do the course. Naturally I'm also looking forward to building more train tracks for Zac.
-

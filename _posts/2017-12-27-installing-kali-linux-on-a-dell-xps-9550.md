@@ -44,7 +44,7 @@ apt install bumblebee-nvidia && systemctl enable bumblebeed
 # You will need to add your everyday user to the bumblebee group as well
 gpasswd -a username bumblebee
 
-# Once that's done, it's time to update some config files. Firstly, 
+# Once that's done, it's time to update some config files. Firstly,
 # edit /etc/bumblebee/bumblebee.conf and change line 22 from:
 
 Driver=
@@ -126,15 +126,15 @@ You will need to log your everyday user out and in if you are using it, so that 
 
 ```
 # ~/.config/libinput-gestures.conf
- 
+
 # Go back/forward in chrome
 gesture: swipe right 3 xdotool key Alt+Left
 gesture: swipe left 3 xdotool key Alt+Right
- 
+
 # Zoom in / Zoom out
 gesture: pinch out xdotool key Ctrl+plus
 gesture: pinch in xdotool key Ctrl+minus
- 
+
 # Switch between desktops
 gesture: swipe up 4 xdotool set_desktop --relative 1
 gesture: swipe down 4 xdotool set_desktop --relative -- -1</pre>
@@ -154,7 +154,7 @@ apt install cups
 systemctl start cups.service
 systemctl enable cups
 
-# Then add your everyday user to the 'lpadmin' group to enable you 
+# Then add your everyday user to the 'lpadmin' group to enable you
 # to administer printers without going via root
 gpasswd -a <username> lpadmin
 ```

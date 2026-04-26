@@ -38,7 +38,7 @@ sqlmap --dependencies
 
 This will yield a list of python modules which are generally speaking not packaged for cygwin, but which can easily be installed. Take for example the following message:
 ```
-[19:59:23] [WARNING] sqlmap requires 'python-pyodbc' third-party library in order to directly 
+[19:59:23] [WARNING] sqlmap requires 'python-pyodbc' third-party library in order to directly
 connect to the database Microsoft Access. Download from http://pyodbc.googlecode.com/
 ```
 

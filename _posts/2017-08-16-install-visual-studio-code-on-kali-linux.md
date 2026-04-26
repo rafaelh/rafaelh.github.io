@@ -14,7 +14,7 @@ Anyone spending a decent amount of time in Kali is going to want a GUI code edit
 Since Kali is a Debian-based distribution, you can add it much as you would Debian or Ubuntu:
 
 ``` sh
-# Download the Microsoft GPG key, and convert it from OpenPGP ASCII 
+# Download the Microsoft GPG key, and convert it from OpenPGP ASCII
 # armor format to GnuPG format
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 
@@ -24,7 +24,7 @@ mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 # Add the VS Code Repository
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list
 
-# Update and install Visual Studio Code 
+# Update and install Visual Studio Code
 apt update && apt install code
 ```
 

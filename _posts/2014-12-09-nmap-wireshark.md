@@ -66,6 +66,6 @@ tshark -D
 # Then select your interface with the correct interface number
 tshark -i <# of interface>
 
-# Show network traffic - you'll probably want to redirect output to a file 
-tshark -i <# of interface> -w filename 
+# Show network traffic - you'll probably want to redirect output to a file
+tshark -i <# of interface> -w filename
 ```

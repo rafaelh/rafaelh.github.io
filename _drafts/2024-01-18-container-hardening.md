@@ -45,7 +45,7 @@ runAsNonRoot: true
  capabilities:
   drop:
    - all
-# Select the latest .NET container for Alpine Linux 
+# Select the latest .NET container for Alpine Linux
 # from [<https://hub.docker.com/_/microsoft-dotnet-aspnet/>](<https://hub.docker.com/_/microsoft-dotnet-aspnet/>)
 ARG VERSION=3.1-alpine
 
@@ -66,7 +66,7 @@ RUN dotnet publish \\
   -r alpine-x64 \\
   /p:PublishReadyToRun=true
 
-# Stage 2: Copy application artifacts into a smaller, hardened runtime 
+# Stage 2: Copy application artifacts into a smaller, hardened runtime
 # environment, which is then used as our final image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine
 

@@ -61,13 +61,13 @@ $break-desktop: 1600px;
     }
     @-moz-keyframes #{$animation-name} {
         @content;
-    }  
+    }
     @-ms-keyframes #{$animation-name} {
         @content;
     }
     @-o-keyframes #{$animation-name} {
         @content;
-    }  
+    }
     @keyframes #{$animation-name} {
         @content;
     }
@@ -78,7 +78,7 @@ $break-desktop: 1600px;
   -moz-animation: #{$str};
   -ms-animation: #{$str};
   -o-animation: #{$str};
-  animation: #{$str};      
+  animation: #{$str};
 }
 
 
@@ -100,7 +100,7 @@ $break-desktop: 1600px;
 }
 @mixin scale($scale) {
   @include transform(scale($scale));
-} 
+}
 @mixin translate ($x, $y) {
   @include transform(translate($x, $y));
 }
@@ -130,7 +130,3 @@ $break-desktop: 1600px;
     box-shadow: $top $left $blur $color;
   }
 }
-
-
-
-

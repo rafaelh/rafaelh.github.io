@@ -18,7 +18,7 @@ git clone https://github.com/urbanadventurer/whatweb /usr/local/whatweb
 gem update --system
 gem install json rchardet
 
-# Then set an alias in your .bashrc 
+# Then set an alias in your .bashrc
 alias whatweb='/usr/local/whatweb/whatweb'
 ```
 

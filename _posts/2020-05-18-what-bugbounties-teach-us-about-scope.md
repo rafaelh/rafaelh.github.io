@@ -19,19 +19,19 @@ Google knows all, and in it's indexes you can find many things that shouldn't be
 
 ``` html
 # First Query:
-Target site:ideone.com | site:codebeautify.org | site:codeshare.io | site:codepen.io | 
-site:repl.it | site:justpaste.it | site:pastebin.com | site:jsfiddle.net | site:trello.com | 
-site:dotnetfiddle.net | site:paste2.org | site:pastebin.fr | site:pastehtml.com | site:slexy.org | 
-site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it | 
-site:jsbin.com | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com | 
-site:dumpz.org | site:codepad.org | site:jsitor.com | site:jsfiddle.net | site:play.golang.org | 
+Target site:ideone.com | site:codebeautify.org | site:codeshare.io | site:codepen.io |
+site:repl.it | site:justpaste.it | site:pastebin.com | site:jsfiddle.net | site:trello.com |
+site:dotnetfiddle.net | site:paste2.org | site:pastebin.fr | site:pastehtml.com | site:slexy.org |
+site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it |
+site:jsbin.com | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com |
+site:dumpz.org | site:codepad.org | site:jsitor.com | site:jsfiddle.net | site:play.golang.org |
 site:dartpad.dartlang.org | site:try.ceylon-lang.org
 
 # Second Query
-Target site:rextester.com | site:phpfiddle.org | site:ide.codingblocks.com | 
-site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net | 
-site:paste.fedoraproject.org | site:paste.frubar.net | site:paste.lisp.org | 
-site:paste.pound-python.org | site:paste.opensuse.org | site:paste.org | site:paste.org.ru | 
+Target site:rextester.com | site:phpfiddle.org | site:ide.codingblocks.com |
+site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net |
+site:paste.fedoraproject.org | site:paste.frubar.net | site:paste.lisp.org |
+site:paste.pound-python.org | site:paste.opensuse.org | site:paste.org | site:paste.org.ru |
 site:paste.ubuntu.com | site:paste.xinu.at
 ```
 

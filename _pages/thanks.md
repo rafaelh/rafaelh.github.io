@@ -6,4 +6,3 @@ featured_image: /assets/img/demo/demo-portrait.jpg
 ---
 
 ![](/assets/img/demo/about.jpg)
-

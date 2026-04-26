@@ -23,7 +23,7 @@ cpan
 
 # From here, just press  for each option, till the configuration exits.
 
-# Then install the required modules. If you have any errors with this, reboot 
+# Then install the required modules. If you have any errors with this, reboot
 # and do it again - according to stackexchange cpan seems to run into memory issues.
 cpan Term::ANSIColor Getopt::Long IO::File Net::IP Net::DNS Net::Netmask Net::Whois::IP HTML::Parser WWW::Mechanize XML::Writer String::Random
 

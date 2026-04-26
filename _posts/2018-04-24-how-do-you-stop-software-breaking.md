@@ -20,7 +20,7 @@ The test pyramid describes the ratio of types of automated tests that should sup
 
 ### End to end tests (E2E)
 
-These function like a user, clicking on functionality as they would, stepping through an automated test. They aren’t fast, but they validate that a particular piece of functionality, and thusly business value, is working, just as if a user had done it. Whilst this sounds good, when they fail, you don’t know what broke, just that *something* broke. The temptation is to have a lot of them - don’t. Ideally, your E2E tests should cover just the critical paths in your software, so that they run fast enough to fail before the developer has finished their coffee and moved onto something else. Google wrote an excellent [blog post](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) on why you minimize these. 
+These function like a user, clicking on functionality as they would, stepping through an automated test. They aren’t fast, but they validate that a particular piece of functionality, and thusly business value, is working, just as if a user had done it. Whilst this sounds good, when they fail, you don’t know what broke, just that *something* broke. The temptation is to have a lot of them - don’t. Ideally, your E2E tests should cover just the critical paths in your software, so that they run fast enough to fail before the developer has finished their coffee and moved onto something else. Google wrote an excellent [blog post](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html) on why you minimize these.
 
 ### Integration Tests
 
@@ -42,11 +42,11 @@ The quadrants on the right are where testing moves from functionality to quality
 
 ## Keep it agile
 
-We want to avoid mini-waterfall systems, where work is completed in the first three quarters of a sprint, and handed to the testers towards the end, leaving them with a highly variable workflow. This can be addressed, firstly through work in progress (WIP) limits that force a continual flow through the system, but also by having the testers collaborate with developers at the start of each job. This way, the developer and tester can define how each of the acceptance criteria will be tested. 
+We want to avoid mini-waterfall systems, where work is completed in the first three quarters of a sprint, and handed to the testers towards the end, leaving them with a highly variable workflow. This can be addressed, firstly through work in progress (WIP) limits that force a continual flow through the system, but also by having the testers collaborate with developers at the start of each job. This way, the developer and tester can define how each of the acceptance criteria will be tested.
 
 ![Software Test Pyramid]({{site.baseurl}}/assets/img/2018/2018-04-24-atdd.jpg)
 
-This is a practice known as Acceptance Test Driven Development (ATDD). In ATDD, the developer and tester (or the whole team, depending on your approach) collaborate on the requirements of a story, and discuss the acceptance criteria, using examples. This yields an agreed approach to performing the acceptance tests, and where possible, automating them at the appropriate levels. This builds shared understanding of the tasks and gives the testers time to build test plans for any manual testing steps. 
+This is a practice known as Acceptance Test Driven Development (ATDD). In ATDD, the developer and tester (or the whole team, depending on your approach) collaborate on the requirements of a story, and discuss the acceptance criteria, using examples. This yields an agreed approach to performing the acceptance tests, and where possible, automating them at the appropriate levels. This builds shared understanding of the tasks and gives the testers time to build test plans for any manual testing steps.
 
 ## Quality is about people (like everything else)
 
