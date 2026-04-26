@@ -25,6 +25,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
+          bundler: 4.0.10
           bundler-cache: true
 
       - name: Setup Pages
