@@ -1,7 +1,7 @@
 site: Rafael Hart
 
 url: https://rafaelhart.com
-baseurl: 
+baseurl:
 
 collections:
   pages:
@@ -44,7 +44,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
@@ -63,4 +63,3 @@ exclude:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-  
