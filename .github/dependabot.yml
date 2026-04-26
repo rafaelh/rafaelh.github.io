@@ -1,0 +1,46 @@
+version: 2
+
+multi-ecosystem-groups:
+  weekly-dependencies:
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    multi-ecosystem-group: "weekly-dependencies"
+    target-branch: "main"
+    open-pull-requests-limit: 1
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    multi-ecosystem-group: "weekly-dependencies"
+    target-branch: "main"
+    open-pull-requests-limit: 1
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "ruby"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    groups:
+      ruby-gems:
+        patterns:
+          - "*"
