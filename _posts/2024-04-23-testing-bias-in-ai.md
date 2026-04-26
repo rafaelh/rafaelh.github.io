@@ -3,7 +3,7 @@ title: Testing for Bias in AI
 date: 2024-04-23
 layout: post
 published: true
-permalink: /2024/04/testing-for-bias-in-au/
+permalink: /2024/04/testing-for-bias-in-ai/
 featured_image: /assets/img/2024/bias-in-ai.jpg
 excerpt: AI can do a lot (except write blog posts that don't put you to sleep) and it's generally agreed that it would be a bad thing if it were biased. It seems that the volume of material on the need to test for bias vastly outweighs the material on how to actually do it, so here are the results of an evening I spent going down a very interesting rabbit hole.
 ---

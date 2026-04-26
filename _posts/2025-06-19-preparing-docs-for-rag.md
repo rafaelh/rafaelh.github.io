@@ -3,8 +3,8 @@ title: Preparing Documents for RAG
 date: 2025-06-19
 layout: post
 published: false
-permalink: /2017/03/windows-10-privacy/
-featured_image: /assets/img/2017/2017-03-27-windows-10-privacy.jpg
+permalink: /2025/06/preparing-docs-for-rag/
+featured_image: /assets/img/background.jpg
 excerpt: Retrieval Augmented Generation (RAG) is great and makes AI work 100% of the time 😝 (it doesn't) so do you dump your Office files into it and call it a day? Structuring the knowledge in the documents and understanding how RAG works will get you better results. It will also help you know what limitations to expect.
 ---
 

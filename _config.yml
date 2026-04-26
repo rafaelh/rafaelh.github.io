@@ -1,6 +1,6 @@
 site: Rafael Hart
 
-url: 
+url: https://rafaelhart.com
 baseurl: 
 
 collections:
@@ -51,6 +51,15 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+  - vendor
 
 paginate: 6
 paginate_path: "/blog/page:num/"
