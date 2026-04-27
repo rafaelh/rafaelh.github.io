@@ -1,29 +1,64 @@
 # rafaelhart.com
-A tech blog. See the live site at [https://rafaelhart.com](https://rafaelhart.com).
+A tech blog built with Jekyll and deployed on GitHub Pages.
 
-* https://rafaelhart.com/
-* [Instructions for hosting on Github Pages](https://pages.github.com/)
+Live site: [https://rafaelhart.com](https://rafaelhart.com)
 
-## Installation
+## Structure
+- `_config.yml`: Jekyll configuration.
+- `_data/`: site data files.
+- `_drafts/`: unpublished draft posts.
+- `_includes/`: shared HTML partials.
+- `_layouts/`: page layout templates.
+- `_pages/`: standalone pages (about, contact, etc).
+- `_posts/`: blog posts.
+- `_projects/`: project entries.
+- `_sass/`: Sass source files.
+- `assets/`: images and other static assets.
+- `css/` and `js/`: compiled/static frontend files.
+- `.github/workflows/`: GitHub Actions deployment workflow.
+
+## Technologies
+- [Jekyll](https://jekyllrb.com/) static site generator.
+- [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/) for dependency management.
+- Jekyll plugins used by this site:
+	- `jekyll-paginate`
+	- `jekyll-sitemap`
+	- `jekyll-feed`
+- [GitHub Pages](https://pages.github.com/) for hosting.
+
+## Installation (Arch Linux)
 ```bash
-# On Debian
-sudo apt install ruby ruby-bundler jekyll
-gem install jekyll-paginate jekyll-sitemap jekyll-feed jekyll-seo-tag
-gem update --system
+# Install Ruby and development tools
+sudo pacman -S --needed ruby base-devel
 
-# Or via the gem package manager:
-gem install bundler jekyll jekyll-paginate jekyll-sitemap jekyll-feed jekyll-seo-tag
+# Install Bundler
+gem install bundler
 
-# Then go to the blog folder and:
+# From the project directory
 bundle install
-bundle update jekyll
+```
+
+## Installation (macOS)
+```bash
+# Install Homebrew if needed: https://brew.sh
+
+# Install Ruby (recommended over system Ruby)
+brew install ruby
+
+# Ensure Homebrew Ruby is first in PATH (zsh)
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+# Install Bundler and project gems
+gem install bundler
+bundle install
 ```
 
 ## Running
-Demo site: https://localhost:4000
+Local site: http://localhost:4000
 ```bash
 bundle exec jekyll serve
-# Browse to https://localhost:4000
+# Browse to http://localhost:4000
 ```
 
 ## Post Template
@@ -48,5 +83,4 @@ Image:
 
 # More Info
 * [Front Matter in posts](https://jekyllrb.com/docs/front-matter/)
-* [GUI for Less, Sass, and CoffeeScript files, so you can recompile them](http://koala-app.com/)
 * [GitHub Custom domains with HTTPS](https://github.blog/2018-05-01-github-pages-custom-domains-https/)
