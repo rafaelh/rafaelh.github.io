@@ -1,0 +1,116 @@
+// Site-wide design tokens.
+// Defaults below mirror _data/settings.yml so the partials compile in isolation
+// (e.g. when a test or tool consumes them directly). At runtime, css/style.scss
+// overrides every value via `@use "variables" as * with (...)`, populated from
+// Liquid + _data/settings.yml.
+
+// Colors
+$background-color: #ffffff !default;
+$background-alt-color: #F5F7FA !default;
+$border-color: #dddddd !default;
+
+$text-dark-color: #2A2F36 !default;
+$text-medium-color: #6C7A89 !default;
+$text-light-color: #ABB7B7 !default;
+
+$accent-color: #A2DED0 !default;
+
+$overlay-background-color: #161B21 !default;
+$overlay-text-color: #ffffff !default;
+
+$error-color: #D64541 !default;
+
+// Fonts
+$body-font: ("Mulish", sans-serif) !default;
+$title-font: ("Merriweather", sans-serif) !default;
+
+$regular-weight: 400 !default;
+$bold-weight: 600 !default;
+
+// Site title
+$sitetitle-small: 25px !default;
+$sitetitle-medium: 30px !default;
+$sitetitle-large: 35px !default;
+$sitetitle-weight: 400 !default;
+$sitetitle-spacing: 0em !default;
+
+// Site tagline
+$sitetagline-small: 16px !default;
+$sitetagline-medium: 17px !default;
+$sitetagline-large: 18px !default;
+$sitetagline-weight: 400 !default;
+$sitetagline-spacing: 0em !default;
+$sitetagline-lineheight: 1.5 !default;
+
+// Menu
+$menu-small: 30px !default;
+$menu-medium: 17px !default;
+$menu-large: 18px !default;
+$menu-weight: 400 !default;
+$menu-spacing: 0em !default;
+
+// Headings + body + blockquote
+$h1-small: 25px !default;
+$h1-medium: 35px !default;
+$h1-large: 45px !default;
+$h1-weight: 400 !default;
+$h1-spacing: -0.02em !default;
+$h1-lineheight: 1.2 !default;
+
+$h2-small: 25px !default;
+$h2-medium: 35px !default;
+$h2-large: 45px !default;
+$h2-weight: 400 !default;
+$h2-spacing: -0.02em !default;
+$h2-lineheight: 1.2 !default;
+
+$h3-small: 22px !default;
+$h3-medium: 28px !default;
+$h3-large: 32px !default;
+$h3-weight: 400 !default;
+$h3-spacing: -0.02em !default;
+$h3-lineheight: 1.3 !default;
+
+$h4-small: 20px !default;
+$h4-medium: 22px !default;
+$h4-large: 24px !default;
+$h4-weight: 400 !default;
+$h4-spacing: 0em !default;
+$h4-lineheight: 1.3 !default;
+
+$h5-small: 18px !default;
+$h5-medium: 20px !default;
+$h5-large: 22px !default;
+$h5-weight: 400 !default;
+$h5-spacing: 0em !default;
+$h5-lineheight: 1.3 !default;
+
+$h6-small: 16px !default;
+$h6-medium: 18px !default;
+$h6-large: 20px !default;
+$h6-weight: 400 !default;
+$h6-spacing: 0em !default;
+$h6-lineheight: 1.3 !default;
+
+$p-small: 16px !default;
+$p-medium: 17px !default;
+$p-large: 18px !default;
+$p-weight: 400 !default;
+$p-spacing: 0em !default;
+$p-lineheight: 1.6 !default;
+
+$blockquote-small: 18px !default;
+$blockquote-medium: 20px !default;
+$blockquote-large: 22px !default;
+$blockquote-weight: 400 !default;
+$blockquote-spacing: 0em !default;
+$blockquote-lineheight: 1.6 !default;
+
+$button-weight: 600 !default;
+$button-spacing: 0.05em !default;
+
+// Layout
+$overlay-opacity: 0.7 !default;
+$logo-width: 200px !default;
+$footer-logo-width: 200px !default;
+$grid-spacing: 10px !default;
