@@ -2,7 +2,7 @@
 title: "Defending Against Prompt Injection"
 date: 2026-06-03
 layout: post
-published: false
+published: true
 permalink: /2026/06/defending-against-prompt-injection/
 featured_image: /assets/img/2026/prompt-injection.jpg
 excerpt: Prompt injection is the SQL injection of the AI era, except the parser is a language model that was specifically built to do whatever the text tells it to. There's no single fix. What works is defence in depth - structured prompts, input filtering, an LLM judge, monitoring, and human review - each covering the gaps the others leave. Here's how I'd build it, in Python.
