@@ -392,9 +392,7 @@ class SecureLLMPipeline:
 
 The steps are deliberately not in layer-number order because they don't run in that order. The cheap deterministic checks go first, so you never pay for an LLM call on input you were always going to reject; the structured wrapping (Layer 1) happens last, right before generation, because that's the only place it does anything. This is a deny by default, fail clodsed approach where every step can reject, the cheap checks run before the expensive ones, nothing reaches the model without being wrapped, and nothing leaves without being scrubbed.
 
-## The control that actually matters
-
-I want to end on the thing that does more than all of the above combined, which is least privilege. Not exciting, but foundational.
+## Least Privilege
 
 An agent that cannot perform a destructive action is safe from prompt injection aimed at that action, no matter how inventive the attack. If your agent has no tool that reads environment variables, an injection trying to exfiltrate a secret has nothing to grab. If it can read tickets but not delete them, "delete all tickets" is a non-event. The filters reduce the *probability* of a successful attack; scoping the agent's capabilities reduces the *consequences* to near zero. The first is a guess about attacker ingenuity; the second is an architectural guarantee.
 
